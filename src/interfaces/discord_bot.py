@@ -1,21 +1,33 @@
-
 import os
 import discord
 from dotenv import load_dotenv
+import sys
+
+# Force unbuffered output
+sys.stdout.reconfigure(line_buffering=True)
 
 load_dotenv("/a0/usr/workdir/.env")
 TOKEN = os.getenv("DISCORD_TOKEN")
 
 class WiseClawClient(discord.Client):
     async def on_ready(self):
-        print(f'[DISCORD] Logged on as {self.user}!')
+        print(f'[DISCORD] Logged on as {self.user}!', flush=True)
 
     async def on_message(self, message):
         if message.author == self.user:
             return
 
-        if message.content.startswith('$hello'):
+        content = message.content.lower()
+        print(f"[DEBUG] Received: {content}", flush=True)
+
+        if content.startswith('$hello'):
             await message.channel.send('WiseClaw is active.')
+        
+        elif 'olá' in content or 'ola' in content:
+            await message.channel.send('Olá! O sistema WiseClaw está online e a escutar.')
+            
+        elif 'ajuda' in content or 'help' in content:
+            await message.channel.send('Comandos disponíveis: $hello, olá')
 
 if __name__ == '__main__':
     if not TOKEN:
