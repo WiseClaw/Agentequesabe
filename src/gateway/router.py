@@ -1,35 +1,67 @@
-class ModelRouter:
+import os
+from litellm import completion
+
+class GatewayRouter:
     def __init__(self):
-        # Prices per 1M tokens (Example based on current market)
+        # 2026 SOTA Configuration
         self.models = {
-            "cheap": {"name": "gpt-4o-mini", "cost_input": 0.15, "cost_output": 0.60},
-            "sota": {"name": "gpt-4o", "cost_input": 5.00, "cost_output": 15.00},
-            "local": {"name": "llama-3-local", "cost_input": 0.00, "cost_output": 0.00}
+            # Manager: Claude 3.5 Sonnet (Reliable & Fast)
+            "manager": "claude-3-5-sonnet-20241022",
+
+            # Coder: Claude 3.5 Sonnet (Best for Code)
+            "coder": "claude-3-5-sonnet-20241022",
+
+            # Researcher: GEMINI 3 PRO PREVIEW (The Beast)
+            "researcher": "gemini/gemini-3-pro-preview",
+
+            # Auditor: GPT-4o (Logic Check)
+            "auditor": "gpt-4o",
+
+            # Operator: Claude 3.5 Sonnet (Computer Use)
+            "operator": "claude-3-5-sonnet-20241022",
+
+            "fast": "gpt-4o-mini"
         }
 
-    def route(self, task_complexity: str, prompt_length: int):
-        # Decides which model to use based on complexity and length.
-        # complexity: 'low', 'medium', 'high'
+    def route_request(self, user_prompt, system_prompt=None, role="fast", use_caching=False):
+        # Select Model based on Role
+        model = self.models.get(role, self.models["fast"])
 
-        if task_complexity == 'low':
-            selected = self.models['cheap']
-            reason = "Task is simple, optimizing for cost."
-        elif task_complexity == 'medium' and prompt_length < 2000:
-            selected = self.models['cheap']
-            reason = "Medium task but short context, fitting for cheaper model."
-        else:
-            selected = self.models['sota']
-            reason = "Complex task or long context, requires SOTA reasoning."
+        messages = []
 
-        return {
-            "model": selected['name'],
-            "reason": reason,
-            "estimated_cost_per_1M_tokens": f"${selected['cost_input']}"
-        }
+        # Handle System Prompt & Caching (Anthropic Only)
+        if system_prompt:
+            if use_caching and "claude" in model:
+                messages.append({
+                    "role": "system",
+                    "content": [
+                        {
+                            "type": "text", 
+                            "text": system_prompt,
+                            "cache_control": {"type": "ephemeral"}
+                        }
+                    ]
+                })
+            else:
+                messages.append({"role": "system", "content": system_prompt})
 
-if __name__ == "__main__":
-    # Test the logic
-    router = ModelRouter()
-    print(f"[ROUTER] Testing Logic:")
-    print(f"1. Simple Summary: {router.route('low', 500)}")
-    print(f"2. Complex Architecture: {router.route('high', 3000)}")
+        messages.append({"role": "user", "content": user_prompt})
+
+        # API Key Handling
+        api_key = None
+        if "claude" in model:
+            api_key = os.getenv("ANTHROPIC_API_KEY")
+        elif "gemini" in model:
+            api_key = os.getenv("GOOGLE_API_KEY")
+        elif "gpt" in model:
+            api_key = os.getenv("OPENAI_API_KEY")
+
+        try:
+            response = completion(
+                model=model,
+                messages=messages,
+                api_key=api_key
+            )
+            return response.choices[0].message.content
+        except Exception as e:
+            return f"[GATEWAY ERROR] {str(e)}"
