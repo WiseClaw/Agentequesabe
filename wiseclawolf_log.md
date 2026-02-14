@@ -22,3 +22,11 @@
     2. **Backup System:** Estratégia de redundância dupla: Cloud (com retenção/pruning) + Git (para código). Inclui protocolo de 'Restore & Verify'.
     3. **Memory Flow:** Pipeline detalhado de ingestão (Normalize -> Dedupe -> Chunk -> Embed) e ciclo de evolução (Daily Notes -> Weekly Synthesis -> Long-Term Memory).
 - **Ação:** Integração destes fluxos no Master Plan.
+
+
+## [2026-02-14 02:52:20] Implementação do Master Plan - Fase 1
+- **Contexto:** Início da execução do plano aprovado. Organização de ficheiros e setup de versionamento.
+- **Ação:** 
+    1. Criação da diretoria `pesquisas` e migração de 10 ficheiros.
+    2. Inicialização do repositório Git local.
+- **Retrospectiva:** Base sólida estabelecida. Próximo passo: Configuração do Agente Librarian.
