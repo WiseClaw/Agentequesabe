@@ -30,3 +30,15 @@
     1. Criação da diretoria `pesquisas` e migração de 10 ficheiros.
     2. Inicialização do repositório Git local.
 - **Retrospectiva:** Base sólida estabelecida. Próximo passo: Configuração do Agente Librarian.
+
+
+## [2026-02-14 03:03:45] Implementação Fase 2
+- **TOOLS.md:** Criado para mapear o sistema.
+- **Gateway Router:** Protótipo implementado em `src/gateway/router.py`.
+- **Git:** Repositório inicializado e commit inicial feito.
+
+
+## [2026-02-14 03:09:57] Implementação Fase 3 (Interfaces)
+- **Conectividade:** Tokens de Telegram e Discord configurados em `.env`.
+- **Scripts:** `telegram_bot.py` e `discord_bot.py` criados em `src/interfaces/`.
+- **Verificação:** Telegram API confirmou identidade do bot (@Agentequesabot).
