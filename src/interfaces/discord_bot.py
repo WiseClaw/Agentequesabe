@@ -1,80 +1,46 @@
-
-import os
 import discord
+import os
+from discord.ext import commands
+from src.agents.manager import ManagerAgent
+from src.agents.coder import CoderAgent
+from src.agents.researcher import ResearcherAgent
+from src.memory.context_manager import ContextManager
 from dotenv import load_dotenv
-import sys
-import asyncio
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
-
-try:
-    from src.agents.manager import ManagerAgent
-    from src.agents.researcher import ResearcherAgent
-    from src.agents.coder import CoderAgent
-    from src.agents.critic import CriticAgent
-    from src.agents.operator import OperatorAgent
-except ImportError as e:
-    print(f"[ERROR] Import failed: {e}")
-    sys.exit(1)
-
-sys.stdout.reconfigure(line_buffering=True)
-load_dotenv("/a0/usr/workdir/.env")
-TOKEN = os.getenv("DISCORD_TOKEN")
-
-agents = {
-    'gestao': ManagerAgent(),
-    'investigacao': ResearcherAgent(),
-    'dev-lab': CoderAgent(),
-    'auditoria': CriticAgent(),
-    'operacoes': OperatorAgent()
-}
-
-CHANNEL_MAP = {
-    'gestao': 'gestao',
-    'investigacao': 'investigacao',
-    'dev-lab': 'dev-lab',
-    'auditoria': 'auditoria',
-    'operacoes': 'operacoes',
-    'geral': 'gestao'
-}
+load_dotenv()
+TOKEN = os.getenv('DISCORD_TOKEN')
 
 intents = discord.Intents.default()
 intents.message_content = True
-client = discord.Client(intents=intents)
+bot = commands.Bot(command_prefix='$', intents=intents)
 
-@client.event
+# Instanciar Agentes (Eles já carregam o ContextManager e Librarian internamente)
+agents = {
+    "manager": ManagerAgent(),
+    "coder": CoderAgent(),
+    "researcher": ResearcherAgent()
+}
+ctx_mgr = ContextManager()
+
+@bot.event
 async def on_ready():
-    print(f'Factory Online: {client.user}')
+    print(f'WiseClaw HQ Online: {bot.user}')
+    ctx_mgr.log_decision("Discord HQ synchronized with Neural Memory.")
 
-@client.event
+@bot.event
 async def on_message(message):
-    if message.author == client.user:
-        return
+    if message.author == bot.user: return
+    
+    # Mapeamento de canais para agentes
+    channel_name = str(message.channel.name)
+    agent = agents.get("manager") # Default
+    if "dev" in channel_name or "code" in channel_name: agent = agents.get("coder")
+    elif "investigacao" in channel_name: agent = agents.get("researcher")
 
-    print(f"[MSG] #{message.channel.name}: {message.content}")
-
-    # Routing Logic: Factory Channels -> Specialized Agents | Others -> Manager
-    if message.channel.name in CHANNEL_MAP:
-        agent_key = CHANNEL_MAP[message.channel.name]
-    else:
-        agent_key = 'gestao'
-
-    if agent_key:
-        agent = agents[agent_key]
+    if bot.user.mentioned_in(message) or isinstance(message.channel, discord.DMChannel) or agent != agents.get("manager"):
         async with message.channel.typing():
-            try:
-                response = await asyncio.to_thread(agent.process, message.content)
-                if len(response) > 2000:
-                    for i in range(0, len(response), 1900):
-                        await message.channel.send(response[i:i+1900])
-                else:
-                    await message.channel.send(response)
-            except Exception as e:
-                await message.channel.send(f"[SYSTEM ERROR] {str(e)}")
+            # O process() do agente agora cuida da Memória, Contexto e Fluxo B
+            response = agent.process(message.content)
+            await message.reply(response)
 
-
-if __name__ == '__main__':
-    if not TOKEN:
-        print('[ERROR] DISCORD_TOKEN not found in .env')
-    else:
-        client.run(TOKEN)
+bot.run(TOKEN)

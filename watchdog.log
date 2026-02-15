@@ -1,0 +1,12 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.17.0.2:8501
+  External URL: http://85.138.11.83:8501
+
+[30;1m2026-02-15 05:47:10[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2026-02-15 05:47:12[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 00df2378fe6c5e150d16c38924d87601).

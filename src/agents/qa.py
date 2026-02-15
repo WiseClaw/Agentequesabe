@@ -3,46 +3,27 @@ import os
 from .base import BaseAgent
 
 class QAAgent(BaseAgent):
-    def __init__(self, name="QA_Engineer", model="claude-3-5-sonnet-20240620"):
-        super().__init__(name=name, role="Quality Assurance", model=model)
-        self.sandbox_dir = "/a0/usr/workdir/code_textbox"
-        self.system_prompt = (
-            "You are the QA Engineer (The Breaker).\n"
-            "Your goal is to write TEST CASES for the provided code.\n"
-            "You operate strictly within the 'code_textbox' directory.\n"
-            "1. Receive code.\n"
-            "2. Write the code to 'candidate.py'.\n"
-            "3. Write a test file 'test_candidate.py' using pytest.\n"
-            "4. Execute the test.\n"
-            "5. Report PASS/FAIL."
-        )
+    def __init__(self):
+        super().__init__("QA", "Quality Assurance Engineer - Test Specialist.")
+        self.sandbox_dir = "code_textbox"
 
-    def run_test_cycle(self, code_content: str, test_content: str) -> str:
-        """
-        Writes code and tests to sandbox, then runs pytest.
-        """
-        # Ensure sandbox exists
-        os.makedirs(self.sandbox_dir, exist_ok=True)
-
-        candidate_path = os.path.join(self.sandbox_dir, "candidate.py")
-        test_path = os.path.join(self.sandbox_dir, "test_candidate.py")
+    def process(self, code_context):
+        self.ctx_mgr.log_decision("QA Agent starting test execution in sandbox.")
+        
+        test_file = os.path.join(self.sandbox_dir, "test_candidate.py")
+        if not os.path.exists(test_file):
+            return "QA Status: FAILED\nReport: test_candidate.py not found."
 
         try:
-            # Write files
-            with open(candidate_path, "w") as f:
-                f.write(code_content)
-            with open(test_path, "w") as f:
-                f.write(test_content)
-
-            # Run pytest
             result = subprocess.run(
-                ["pytest", "test_candidate.py"],
-                cwd=self.sandbox_dir,
-                capture_output=True,
-                text=True,
-                timeout=30
+                ["pytest", test_file],
+                capture_output=True, text=True, timeout=30
             )
-            return result.stdout
-
+            status = "PASSED" if result.returncode == 0 else "FAILED"
+            report = result.stdout + "\n" + result.stderr
         except Exception as e:
-            return f"QA Execution Error: {str(e)}"
+            status = "ERROR"
+            report = str(e)
+
+        self.ctx_mgr.update_state("last_qa_status", status)
+        return f"QA Status: {status}\nReport:\n{report}"

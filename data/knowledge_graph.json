@@ -1,0 +1,161 @@
+{
+    "nodes": [
+        {
+            "id": "WiseClaw",
+            "label": "WiseClaw OS",
+            "group": "system"
+        },
+        {
+            "id": "Enabler",
+            "label": "Enabler",
+            "group": "user"
+        },
+        {
+            "id": "Manager",
+            "label": "Manager Agent",
+            "group": "agent"
+        },
+        {
+            "id": "Librarian",
+            "label": "Librarian",
+            "group": "memory"
+        },
+        {
+            "id": "MCP_Server",
+            "label": "MCP_Server",
+            "group": "concept"
+        },
+        {
+            "id": "Operator",
+            "label": "Operator",
+            "group": "concept"
+        },
+        {
+            "id": "Archivist",
+            "label": "Archivist",
+            "group": "concept"
+        },
+        {
+            "id": "Knowledge_Graph",
+            "label": "Knowledge_Graph",
+            "group": "concept"
+        },
+        {
+            "id": "Watchdog",
+            "label": "Watchdog",
+            "group": "concept"
+        },
+        {
+            "id": "System_Health",
+            "label": "System_Health",
+            "group": "concept"
+        },
+        {
+            "id": "Ollama",
+            "label": "Ollama",
+            "group": "concept"
+        },
+        {
+            "id": "Local_Resilience",
+            "label": "Local_Resilience",
+            "group": "concept"
+        },
+        {
+            "id": "User_Task",
+            "label": "User_Task",
+            "group": "concept"
+        },
+        {
+            "id": "Desenvolver um m\u00f3dul",
+            "label": "Desenvolver um m\u00f3dul",
+            "group": "concept"
+        },
+        {
+            "id": "Search_MCP",
+            "label": "Search_MCP",
+            "group": "concept"
+        },
+        {
+            "id": "Researcher",
+            "label": "Researcher",
+            "group": "concept"
+        },
+        {
+            "id": "Web",
+            "label": "Web",
+            "group": "concept"
+        },
+        {
+            "id": "DuckDuckGo",
+            "label": "DuckDuckGo",
+            "group": "concept"
+        }
+    ],
+    "edges": [
+        {
+            "from": "Enabler",
+            "to": "WiseClaw",
+            "label": "Comanda"
+        },
+        {
+            "from": "WiseClaw",
+            "to": "Manager",
+            "label": "Orquestra"
+        },
+        {
+            "from": "Manager",
+            "to": "Librarian",
+            "label": "Consulta"
+        },
+        {
+            "from": "WiseClaw",
+            "to": "MCP_Server",
+            "label": "Implementa"
+        },
+        {
+            "from": "Operator",
+            "to": "MCP_Server",
+            "label": "Utiliza"
+        },
+        {
+            "from": "Archivist",
+            "to": "Knowledge_Graph",
+            "label": "Gere"
+        },
+        {
+            "from": "Watchdog",
+            "to": "System_Health",
+            "label": "Monitoriza"
+        },
+        {
+            "from": "Ollama",
+            "to": "Local_Resilience",
+            "label": "Providencia"
+        },
+        {
+            "from": "User_Task",
+            "to": "Desenvolver um m\u00f3dul",
+            "label": "Solicita"
+        },
+        {
+            "from": "WiseClaw",
+            "to": "Search_MCP",
+            "label": "Habilita"
+        },
+        {
+            "from": "Researcher",
+            "to": "Search_MCP",
+            "label": "Utiliza"
+        },
+        {
+            "from": "Researcher",
+            "to": "Web",
+            "label": "Pesquisa"
+        },
+        {
+            "from": "Search_MCP",
+            "to": "DuckDuckGo",
+            "label": "Interface"
+        }
+    ]
+}

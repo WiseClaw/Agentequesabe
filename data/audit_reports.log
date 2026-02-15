@@ -1,0 +1,336 @@
+--- Audit for src/agents/base.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.16s ===============================
+
+
+--- Audit for src/gateway/router.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.15s ===============================
+
+
+--- Audit for src/agents/base.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.17s ===============================
+
+
+--- Audit for src/gateway/router.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.14s ===============================
+
+
+--- Audit for src/agents/base.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.33s ===============================
+
+
+--- Audit for src/gateway/router.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.35s ===============================
+
+
+--- Audit for src/agents/base.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.15s ===============================
+
+
+--- Audit for src/gateway/router.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.15s ===============================
+
+
+--- Audit for src/agents/base.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.20s ===============================
+
+
+--- Audit for src/gateway/router.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.15s ===============================
+
+
+--- Audit for src/agents/base.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.13s ===============================
+
+
+--- Audit for src/gateway/router.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.13s ===============================
+
+
+--- Audit for src/agents/base.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.23s ===============================
+
+
+--- Audit for src/gateway/router.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.14s ===============================
+
+
+--- Audit for src/agents/base.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.12s ===============================
+
+
+--- Audit for src/gateway/router.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.13s ===============================
+
+
+--- Audit for src/agents/base.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.15s ===============================
+
+
+--- Audit for src/gateway/router.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.17s ===============================
+
+
+--- Audit for src/agents/base.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.12s ===============================
+
+
+--- Audit for src/gateway/router.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.17s ===============================
+
+
+--- Audit for src/agents/base.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.18s ===============================
+
+
+--- Audit for src/gateway/router.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.14s ===============================
+
+
+--- Audit for src/agents/base.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.27s ===============================
+
+
+--- Audit for src/gateway/router.py ---
+QA Status: PASSED
+Report:
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0
+rootdir: /a0/usr/workdir
+plugins: langsmith-0.7.3, anyio-4.12.1
+collected 1 item
+
+code_textbox/test_candidate.py .                                         [100%]
+
+============================== 1 passed in 0.13s ===============================
+
+

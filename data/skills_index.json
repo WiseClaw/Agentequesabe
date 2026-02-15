@@ -1,0 +1,3430 @@
+[
+    {
+        "name": "code-review-excellence",
+        "description": "---"
+    },
+    {
+        "name": "codebase-cleanup-deps-audit",
+        "description": "---"
+    },
+    {
+        "name": "ruby-pro",
+        "description": "---"
+    },
+    {
+        "name": "n8n-mcp-tools-expert",
+        "description": "---"
+    },
+    {
+        "name": "zapier-make-patterns",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-projects-py",
+        "description": "---"
+    },
+    {
+        "name": "ml-engineer",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-document-intelligence-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "javascript-typescript-typescript-scaffold",
+        "description": "---"
+    },
+    {
+        "name": "evaluation",
+        "description": "---"
+    },
+    {
+        "name": "azure-storage-file-share-py",
+        "description": "---"
+    },
+    {
+        "name": "dotnet-backend-patterns",
+        "description": "---"
+    },
+    {
+        "name": "terraform-skill",
+        "description": "---"
+    },
+    {
+        "name": "gitlab-ci-patterns",
+        "description": "---"
+    },
+    {
+        "name": "k8s-manifest-generator",
+        "description": "---"
+    },
+    {
+        "name": "testing-patterns",
+        "description": "---"
+    },
+    {
+        "name": "machine-learning-ops-ml-pipeline",
+        "description": "---"
+    },
+    {
+        "name": "instagram-automation",
+        "description": "---"
+    },
+    {
+        "name": "observability-monitoring-monitor-setup",
+        "description": "---"
+    },
+    {
+        "name": "search-specialist",
+        "description": "---"
+    },
+    {
+        "name": "embedding-strategies",
+        "description": "---"
+    },
+    {
+        "name": "agent-manager-skill",
+        "description": "---"
+    },
+    {
+        "name": "voice-ai-engine-development",
+        "description": "---"
+    },
+    {
+        "name": "seo-fundamentals",
+        "description": "---"
+    },
+    {
+        "name": "postmark-automation",
+        "description": "---"
+    },
+    {
+        "name": "aws-skills",
+        "description": "---"
+    },
+    {
+        "name": "terraform-specialist",
+        "description": "---"
+    },
+    {
+        "name": "architect-review",
+        "description": "---"
+    },
+    {
+        "name": "content-marketer",
+        "description": "---"
+    },
+    {
+        "name": "llm-application-dev-prompt-optimize",
+        "description": "---"
+    },
+    {
+        "name": "algorithmic-art",
+        "description": "---"
+    },
+    {
+        "name": "aws-penetration-testing",
+        "description": "---"
+    },
+    {
+        "name": "code-reviewer",
+        "description": "---"
+    },
+    {
+        "name": "convertkit-automation",
+        "description": "---"
+    },
+    {
+        "name": "gdpr-data-handling",
+        "description": "---"
+    },
+    {
+        "name": "claude-ally-health",
+        "description": "---"
+    },
+    {
+        "name": "github-issue-creator",
+        "description": "---"
+    },
+    {
+        "name": "notion-template-business",
+        "description": "---"
+    },
+    {
+        "name": "azure-servicebus-py",
+        "description": "---"
+    },
+    {
+        "name": "azure-resource-manager-sql-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "wiki-page-writer",
+        "description": "---"
+    },
+    {
+        "name": "azure-functions",
+        "description": "---"
+    },
+    {
+        "name": "linear-claude-skill",
+        "description": "---"
+    },
+    {
+        "name": "customer-support",
+        "description": "---"
+    },
+    {
+        "name": "nextjs-app-router-patterns",
+        "description": "---"
+    },
+    {
+        "name": "fal-upscale",
+        "description": "---"
+    },
+    {
+        "name": "pdf-official",
+        "description": "---"
+    },
+    {
+        "name": "top-web-vulnerabilities",
+        "description": "---"
+    },
+    {
+        "name": "fal-workflow",
+        "description": "---"
+    },
+    {
+        "name": "competitor-alternatives",
+        "description": "---"
+    },
+    {
+        "name": "basecamp-automation",
+        "description": "---"
+    },
+    {
+        "name": "godot-gdscript-patterns",
+        "description": "---"
+    },
+    {
+        "name": "full-stack-orchestration-full-stack-feature",
+        "description": "---"
+    },
+    {
+        "name": "avalonia-layout-zafiro",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-voicelive-ts",
+        "description": "---"
+    },
+    {
+        "name": "data-engineering-data-driven-feature",
+        "description": "---"
+    },
+    {
+        "name": "fal-image-edit",
+        "description": "---"
+    },
+    {
+        "name": "startup-metrics-framework",
+        "description": "---"
+    },
+    {
+        "name": "vercel-automation",
+        "description": "---"
+    },
+    {
+        "name": "defi-protocol-templates",
+        "description": "---"
+    },
+    {
+        "name": "gcp-cloud-run",
+        "description": "---"
+    },
+    {
+        "name": "database-migrations-sql-migrations",
+        "description": "---"
+    },
+    {
+        "name": "ab-test-setup",
+        "description": "---"
+    },
+    {
+        "name": "seo-content-auditor",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-translation-document-py",
+        "description": "---"
+    },
+    {
+        "name": "research-engineer",
+        "description": "---"
+    },
+    {
+        "name": "azure-mgmt-fabric-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "azure-mgmt-weightsandbiases-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "api-fuzzing-bug-bounty",
+        "description": "---"
+    },
+    {
+        "name": "page-cro",
+        "description": "---"
+    },
+    {
+        "name": "n8n-node-configuration",
+        "description": "---"
+    },
+    {
+        "name": "error-detective",
+        "description": "---"
+    },
+    {
+        "name": "error-handling-patterns",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-document-intelligence-ts",
+        "description": "---"
+    },
+    {
+        "name": "security-bluebook-builder",
+        "description": "---"
+    },
+    {
+        "name": "jira-automation",
+        "description": "---"
+    },
+    {
+        "name": "voice-agents",
+        "description": "---"
+    },
+    {
+        "name": "coda-automation",
+        "description": "---"
+    },
+    {
+        "name": "azure-mgmt-apimanagement-py",
+        "description": "---"
+    },
+    {
+        "name": "todoist-automation",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-vision-imageanalysis-py",
+        "description": "---"
+    },
+    {
+        "name": "systems-programming-rust-project",
+        "description": "---"
+    },
+    {
+        "name": "geo-fundamentals",
+        "description": "---"
+    },
+    {
+        "name": "xss-html-injection",
+        "description": "---"
+    },
+    {
+        "name": "sales-automator",
+        "description": "---"
+    },
+    {
+        "name": "conductor-status",
+        "description": "---"
+    },
+    {
+        "name": "viral-generator-builder",
+        "description": "---"
+    },
+    {
+        "name": "llm-app-patterns",
+        "description": "---"
+    },
+    {
+        "name": "backend-dev-guidelines",
+        "description": "---"
+    },
+    {
+        "name": "competitive-landscape",
+        "description": "---"
+    },
+    {
+        "name": "startup-business-analyst-business-case",
+        "description": "---"
+    },
+    {
+        "name": "cloud-penetration-testing",
+        "description": "---"
+    },
+    {
+        "name": "binary-analysis-patterns",
+        "description": "---"
+    },
+    {
+        "name": "m365-agents-py",
+        "description": "---"
+    },
+    {
+        "name": "file-organizer",
+        "description": "---"
+    },
+    {
+        "name": "claude-code-guide",
+        "description": "---"
+    },
+    {
+        "name": "webflow-automation",
+        "description": "---"
+    },
+    {
+        "name": "api-design-principles",
+        "description": "---"
+    },
+    {
+        "name": "golang-pro",
+        "description": "---"
+    },
+    {
+        "name": "database-cloud-optimization-cost-optimize",
+        "description": "---"
+    },
+    {
+        "name": "error-debugging-multi-agent-review",
+        "description": "---"
+    },
+    {
+        "name": "web-performance-optimization",
+        "description": "---"
+    },
+    {
+        "name": "cc-skill-frontend-patterns",
+        "description": "---"
+    },
+    {
+        "name": "exa-search",
+        "description": "---"
+    },
+    {
+        "name": "webapp-testing",
+        "description": "---"
+    },
+    {
+        "name": "frontend-developer",
+        "description": "---"
+    },
+    {
+        "name": "telegram-bot-builder",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-anomalydetector-java",
+        "description": "---"
+    },
+    {
+        "name": "context-fundamentals",
+        "description": "---"
+    },
+    {
+        "name": "react-ui-patterns",
+        "description": "---"
+    },
+    {
+        "name": "c4-container",
+        "description": "---"
+    },
+    {
+        "name": "loki-mode",
+        "description": "---"
+    },
+    {
+        "name": "linkedin-automation",
+        "description": "---"
+    },
+    {
+        "name": "event-sourcing-architect",
+        "description": "---"
+    },
+    {
+        "name": "windows-privilege-escalation",
+        "description": "---"
+    },
+    {
+        "name": "anti-reversing-techniques",
+        "description": "---"
+    },
+    {
+        "name": "brevo-automation",
+        "description": "---"
+    },
+    {
+        "name": "tdd-orchestrator",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-textanalytics-py",
+        "description": "---"
+    },
+    {
+        "name": "superpowers-lab",
+        "description": "---"
+    },
+    {
+        "name": "seo-content-writer",
+        "description": "---"
+    },
+    {
+        "name": "distributed-tracing",
+        "description": "---"
+    },
+    {
+        "name": "seo-content-planner",
+        "description": "---"
+    },
+    {
+        "name": "popup-cro",
+        "description": "---"
+    },
+    {
+        "name": "azure-web-pubsub-ts",
+        "description": "---"
+    },
+    {
+        "name": "azure-servicebus-ts",
+        "description": "---"
+    },
+    {
+        "name": "incident-response-smart-fix",
+        "description": "---"
+    },
+    {
+        "name": "sharp-edges",
+        "description": "---"
+    },
+    {
+        "name": "stride-analysis-patterns",
+        "description": "---"
+    },
+    {
+        "name": "django-pro",
+        "description": "---"
+    },
+    {
+        "name": "cc-skill-strategic-compact",
+        "description": "---"
+    },
+    {
+        "name": "mixpanel-automation",
+        "description": "---"
+    },
+    {
+        "name": "ui-ux-designer",
+        "description": "---"
+    },
+    {
+        "name": "k8s-security-policies",
+        "description": "---"
+    },
+    {
+        "name": "cpp-pro",
+        "description": "---"
+    },
+    {
+        "name": "signup-flow-cro",
+        "description": "---"
+    },
+    {
+        "name": "fastapi-router-py",
+        "description": "---"
+    },
+    {
+        "name": "postgres-best-practices",
+        "description": "---"
+    },
+    {
+        "name": "notebooklm",
+        "description": "---"
+    },
+    {
+        "name": "blockchain-developer",
+        "description": "---"
+    },
+    {
+        "name": "claude-speed-reader",
+        "description": "---"
+    },
+    {
+        "name": "tavily-web",
+        "description": "---"
+    },
+    {
+        "name": "crewai",
+        "description": "---"
+    },
+    {
+        "name": "git-pr-workflows-onboard",
+        "description": "---"
+    },
+    {
+        "name": "writing-plans",
+        "description": "---"
+    },
+    {
+        "name": "google-analytics-automation",
+        "description": "---"
+    },
+    {
+        "name": "app-store-optimization",
+        "description": "---"
+    },
+    {
+        "name": "shellcheck-configuration",
+        "description": "---"
+    },
+    {
+        "name": "c4-architecture-c4-architecture",
+        "description": "---"
+    },
+    {
+        "name": "bats-testing-patterns",
+        "description": "---"
+    },
+    {
+        "name": "hybrid-search-implementation",
+        "description": "---"
+    },
+    {
+        "name": "bash-defensive-patterns",
+        "description": "---"
+    },
+    {
+        "name": "privilege-escalation-methods",
+        "description": "---"
+    },
+    {
+        "name": "java-pro",
+        "description": "---"
+    },
+    {
+        "name": "debugging-toolkit-smart-debug",
+        "description": "---"
+    },
+    {
+        "name": "temporal-python-testing",
+        "description": "---"
+    },
+    {
+        "name": "api-security-best-practices",
+        "description": "---"
+    },
+    {
+        "name": "i18n-localization",
+        "description": "---"
+    },
+    {
+        "name": "react-native-architecture",
+        "description": "---"
+    },
+    {
+        "name": "documentation-generation-doc-generate",
+        "description": "---"
+    },
+    {
+        "name": "web3-testing",
+        "description": "---"
+    },
+    {
+        "name": "canvas-design",
+        "description": "---"
+    },
+    {
+        "name": "microsoft-teams-automation",
+        "description": "---"
+    },
+    {
+        "name": "postmortem-writing",
+        "description": "---"
+    },
+    {
+        "name": "metasploit-framework",
+        "description": "---"
+    },
+    {
+        "name": "paywall-upgrade-cro",
+        "description": "---"
+    },
+    {
+        "name": "startup-analyst",
+        "description": "---"
+    },
+    {
+        "name": "performance-engineer",
+        "description": "---"
+    },
+    {
+        "name": "frontend-security-coder",
+        "description": "---"
+    },
+    {
+        "name": "mermaid-expert",
+        "description": "---"
+    },
+    {
+        "name": "conductor-validator",
+        "description": "---"
+    },
+    {
+        "name": "azure-messaging-webpubsubservice-py",
+        "description": "---"
+    },
+    {
+        "name": "rag-engineer",
+        "description": "---"
+    },
+    {
+        "name": "create-pr",
+        "description": "---"
+    },
+    {
+        "name": "bullmq-specialist",
+        "description": "---"
+    },
+    {
+        "name": "context-compression",
+        "description": "---"
+    },
+    {
+        "name": "azure-resource-manager-postgresql-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "angular-migration",
+        "description": "---"
+    },
+    {
+        "name": "billing-automation",
+        "description": "---"
+    },
+    {
+        "name": "googlesheets-automation",
+        "description": "---"
+    },
+    {
+        "name": "requesting-code-review",
+        "description": "---"
+    },
+    {
+        "name": "distributed-debugging-debug-trace",
+        "description": "---"
+    },
+    {
+        "name": "vulnerability-scanner",
+        "description": "---"
+    },
+    {
+        "name": "canva-automation",
+        "description": "---"
+    },
+    {
+        "name": "projection-patterns",
+        "description": "---"
+    },
+    {
+        "name": "azd-deployment",
+        "description": "---"
+    },
+    {
+        "name": "llm-application-dev-langchain-agent",
+        "description": "---"
+    },
+    {
+        "name": "monorepo-architect",
+        "description": "---"
+    },
+    {
+        "name": "stitch-ui-design",
+        "description": "---"
+    },
+    {
+        "name": "openapi-spec-generation",
+        "description": "---"
+    },
+    {
+        "name": "conductor-implement",
+        "description": "---"
+    },
+    {
+        "name": "database-optimizer",
+        "description": "---"
+    },
+    {
+        "name": "unreal-engine-cpp-pro",
+        "description": "---"
+    },
+    {
+        "name": "angular-ui-patterns",
+        "description": "---"
+    },
+    {
+        "name": "langfuse",
+        "description": "---"
+    },
+    {
+        "name": "azure-identity-py",
+        "description": "---"
+    },
+    {
+        "name": "datadog-automation",
+        "description": "---"
+    },
+    {
+        "name": "agent-evaluation",
+        "description": "---"
+    },
+    {
+        "name": "wiki-qa",
+        "description": "---"
+    },
+    {
+        "name": "stripe-automation",
+        "description": "---"
+    },
+    {
+        "name": "m365-agents-ts",
+        "description": "---"
+    },
+    {
+        "name": "azure-identity-java",
+        "description": "---"
+    },
+    {
+        "name": "wiki-vitepress",
+        "description": "---"
+    },
+    {
+        "name": "azure-data-tables-java",
+        "description": "---"
+    },
+    {
+        "name": "deployment-pipeline-design",
+        "description": "---"
+    },
+    {
+        "name": "paypal-integration",
+        "description": "---"
+    },
+    {
+        "name": "azure-mgmt-apicenter-py",
+        "description": "---"
+    },
+    {
+        "name": "frontend-slides",
+        "description": "---"
+    },
+    {
+        "name": "slack-bot-builder",
+        "description": "---"
+    },
+    {
+        "name": "podcast-generation",
+        "description": "---"
+    },
+    {
+        "name": "azure-communication-callingserver-java",
+        "description": "---"
+    },
+    {
+        "name": "file-path-traversal",
+        "description": "---"
+    },
+    {
+        "name": "azure-search-documents-py",
+        "description": "---"
+    },
+    {
+        "name": "agent-tool-builder",
+        "description": "---"
+    },
+    {
+        "name": "pptx-official",
+        "description": "---"
+    },
+    {
+        "name": "trello-automation",
+        "description": "---"
+    },
+    {
+        "name": "tailwind-design-system",
+        "description": "---"
+    },
+    {
+        "name": "c-pro",
+        "description": "---"
+    },
+    {
+        "name": "security-scanning-security-sast",
+        "description": "---"
+    },
+    {
+        "name": "multi-agent-patterns",
+        "description": "---"
+    },
+    {
+        "name": "workflow-orchestration-patterns",
+        "description": "---"
+    },
+    {
+        "name": "youtube-automation",
+        "description": "---"
+    },
+    {
+        "name": "programmatic-seo",
+        "description": "---"
+    },
+    {
+        "name": "llm-evaluation",
+        "description": "---"
+    },
+    {
+        "name": "upgrading-expo",
+        "description": "---"
+    },
+    {
+        "name": "react-best-practices",
+        "description": "---"
+    },
+    {
+        "name": "cqrs-implementation",
+        "description": "---"
+    },
+    {
+        "name": "nx-workspace-patterns",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-openai-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "schema-markup",
+        "description": "---"
+    },
+    {
+        "name": "database-migration",
+        "description": "---"
+    },
+    {
+        "name": "circleci-automation",
+        "description": "---"
+    },
+    {
+        "name": "activecampaign-automation",
+        "description": "---"
+    },
+    {
+        "name": "agents-v2-py",
+        "description": "---"
+    },
+    {
+        "name": "airtable-automation",
+        "description": "---"
+    },
+    {
+        "name": "using-git-worktrees",
+        "description": "---"
+    },
+    {
+        "name": "hugging-face-cli",
+        "description": "---"
+    },
+    {
+        "name": "azure-identity-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "wordpress-penetration-testing",
+        "description": "---"
+    },
+    {
+        "name": "shopify-apps",
+        "description": "---"
+    },
+    {
+        "name": "clarity-gate",
+        "description": "---"
+    },
+    {
+        "name": "graphql-architect",
+        "description": "---"
+    },
+    {
+        "name": "mailchimp-automation",
+        "description": "---"
+    },
+    {
+        "name": "performance-profiling",
+        "description": "---"
+    },
+    {
+        "name": "content-creator",
+        "description": "---"
+    },
+    {
+        "name": "free-tool-strategy",
+        "description": "---"
+    },
+    {
+        "name": "helpdesk-automation",
+        "description": "---"
+    },
+    {
+        "name": "ssh-penetration-testing",
+        "description": "---"
+    },
+    {
+        "name": "launch-strategy",
+        "description": "---"
+    },
+    {
+        "name": "azure-storage-queue-py",
+        "description": "---"
+    },
+    {
+        "name": "busybox-on-windows",
+        "description": "---"
+    },
+    {
+        "name": "azure-servicebus-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "azure-mgmt-apicenter-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "prompt-caching",
+        "description": "---"
+    },
+    {
+        "name": "framework-migration-deps-upgrade",
+        "description": "---"
+    },
+    {
+        "name": "zendesk-automation",
+        "description": "---"
+    },
+    {
+        "name": "burp-suite-testing",
+        "description": "---"
+    },
+    {
+        "name": "gmail-automation",
+        "description": "---"
+    },
+    {
+        "name": "scripts",
+        "description": "Sem descri\u00e7\u00e3o dispon\u00edvel."
+    },
+    {
+        "name": "iterate-pr",
+        "description": "---"
+    },
+    {
+        "name": "dotnet-architect",
+        "description": "---"
+    },
+    {
+        "name": "azure-eventhub-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "dotnet-backend",
+        "description": "---"
+    },
+    {
+        "name": "beautiful-prose",
+        "description": "---"
+    },
+    {
+        "name": "design-orchestration",
+        "description": "---"
+    },
+    {
+        "name": "idor-testing",
+        "description": "---"
+    },
+    {
+        "name": "referral-program",
+        "description": "---"
+    },
+    {
+        "name": "security-compliance-compliance-check",
+        "description": "---"
+    },
+    {
+        "name": "inngest",
+        "description": "---"
+    },
+    {
+        "name": "hosted-agents-v2-py",
+        "description": "---"
+    },
+    {
+        "name": "graphql",
+        "description": "---"
+    },
+    {
+        "name": "ai-agents-architect",
+        "description": "---"
+    },
+    {
+        "name": "reference-builder",
+        "description": "---"
+    },
+    {
+        "name": "nosql-expert",
+        "description": "---"
+    },
+    {
+        "name": "posix-shell-pro",
+        "description": "---"
+    },
+    {
+        "name": "create-skill",
+        "description": "---"
+    },
+    {
+        "name": "claude-win11-speckit-update-skill",
+        "description": "---"
+    },
+    {
+        "name": "git-pr-workflows-pr-enhance",
+        "description": "---"
+    },
+    {
+        "name": "skill-developer",
+        "description": "---"
+    },
+    {
+        "name": "dropbox-automation",
+        "description": "---"
+    },
+    {
+        "name": "posthog-automation",
+        "description": "---"
+    },
+    {
+        "name": "agent-framework-azure-ai-py",
+        "description": "---"
+    },
+    {
+        "name": "azure-appconfiguration-py",
+        "description": "---"
+    },
+    {
+        "name": "nanobanana-ppt-skills",
+        "description": "---"
+    },
+    {
+        "name": "azure-storage-blob-py",
+        "description": "---"
+    },
+    {
+        "name": "receiving-code-review",
+        "description": "---"
+    },
+    {
+        "name": "tdd-workflow",
+        "description": "---"
+    },
+    {
+        "name": "kubernetes-architect",
+        "description": "---"
+    },
+    {
+        "name": "azure-resource-manager-durabletask-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "azure-cosmos-java",
+        "description": "---"
+    },
+    {
+        "name": "avalonia-viewmodels-zafiro",
+        "description": "---"
+    },
+    {
+        "name": "azure-monitor-query-java",
+        "description": "---"
+    },
+    {
+        "name": "prompt-engineering-patterns",
+        "description": "---"
+    },
+    {
+        "name": "obsidian-clipper-template-creator",
+        "description": "---"
+    },
+    {
+        "name": "data-engineer",
+        "description": "---"
+    },
+    {
+        "name": "segment-automation",
+        "description": "---"
+    },
+    {
+        "name": "network-101",
+        "description": "---"
+    },
+    {
+        "name": "paid-ads",
+        "description": "---"
+    },
+    {
+        "name": "c4-context",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-voicelive-java",
+        "description": "---"
+    },
+    {
+        "name": "claude-scientific-skills",
+        "description": "---"
+    },
+    {
+        "name": "xlsx-official",
+        "description": "---"
+    },
+    {
+        "name": "miro-automation",
+        "description": "---"
+    },
+    {
+        "name": "bun-development",
+        "description": "---"
+    },
+    {
+        "name": "code-documentation-doc-generate",
+        "description": "---"
+    },
+    {
+        "name": "executing-plans",
+        "description": "---"
+    },
+    {
+        "name": "figma-automation",
+        "description": "---"
+    },
+    {
+        "name": "team-collaboration-standup-notes",
+        "description": "---"
+    },
+    {
+        "name": "xlsx",
+        "description": "---"
+    },
+    {
+        "name": "azure-eventgrid-py",
+        "description": "---"
+    },
+    {
+        "name": "shopify-automation",
+        "description": "---"
+    },
+    {
+        "name": "senior-architect",
+        "description": "---"
+    },
+    {
+        "name": "azure-monitor-opentelemetry-exporter-java",
+        "description": "---"
+    },
+    {
+        "name": "azure-identity-ts",
+        "description": "---"
+    },
+    {
+        "name": "azure-monitor-ingestion-java",
+        "description": "---"
+    },
+    {
+        "name": "frontend-mobile-security-xss-scan",
+        "description": "---"
+    },
+    {
+        "name": "shodan-reconnaissance",
+        "description": "---"
+    },
+    {
+        "name": "hubspot-integration",
+        "description": "---"
+    },
+    {
+        "name": "seo-authority-builder",
+        "description": "---"
+    },
+    {
+        "name": "scanning-tools",
+        "description": "---"
+    },
+    {
+        "name": "marketing-psychology",
+        "description": "---"
+    },
+    {
+        "name": "database-migrations-migration-observability",
+        "description": "---"
+    },
+    {
+        "name": "doc-coauthoring",
+        "description": "---"
+    },
+    {
+        "name": "context-window-management",
+        "description": "---"
+    },
+    {
+        "name": "context-driven-development",
+        "description": "---"
+    },
+    {
+        "name": "email-systems",
+        "description": "---"
+    },
+    {
+        "name": "interactive-portfolio",
+        "description": "---"
+    },
+    {
+        "name": "azure-messaging-webpubsub-java",
+        "description": "---"
+    },
+    {
+        "name": "sast-configuration",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-voicelive-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "code-documentation-code-explain",
+        "description": "---"
+    },
+    {
+        "name": "pdf",
+        "description": "---"
+    },
+    {
+        "name": "ui-skills",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-vision-imageanalysis-java",
+        "description": "---"
+    },
+    {
+        "name": "multi-platform-apps-multi-platform",
+        "description": "---"
+    },
+    {
+        "name": "azure-identity-rust",
+        "description": "---"
+    },
+    {
+        "name": "rust-async-patterns",
+        "description": "---"
+    },
+    {
+        "name": "python-pro",
+        "description": "---"
+    },
+    {
+        "name": "nodejs-backend-patterns",
+        "description": "---"
+    },
+    {
+        "name": "quant-analyst",
+        "description": "---"
+    },
+    {
+        "name": "screenshots",
+        "description": "---"
+    },
+    {
+        "name": "react-flow-node-ts",
+        "description": "---"
+    },
+    {
+        "name": "azure-search-documents-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "threejs-skills",
+        "description": "---"
+    },
+    {
+        "name": "memory-safety-patterns",
+        "description": "---"
+    },
+    {
+        "name": "telegram-mini-app",
+        "description": "---"
+    },
+    {
+        "name": "linux-shell-scripting",
+        "description": "---"
+    },
+    {
+        "name": "prisma-expert",
+        "description": "---"
+    },
+    {
+        "name": "vercel-deploy-claimable",
+        "description": "---"
+    },
+    {
+        "name": "blockrun",
+        "description": "---"
+    },
+    {
+        "name": "azure-eventgrid-java",
+        "description": "---"
+    },
+    {
+        "name": "error-debugging-error-trace",
+        "description": "---"
+    },
+    {
+        "name": "copy-editing",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-projects-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "n8n-code-python",
+        "description": "---"
+    },
+    {
+        "name": "imagen",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-translation-ts",
+        "description": "---"
+    },
+    {
+        "name": "tool-design",
+        "description": "---"
+    },
+    {
+        "name": "service-mesh-observability",
+        "description": "---"
+    },
+    {
+        "name": "architecture-patterns",
+        "description": "---"
+    },
+    {
+        "name": "smtp-penetration-testing",
+        "description": "---"
+    },
+    {
+        "name": "slack-gif-creator",
+        "description": "---"
+    },
+    {
+        "name": "prometheus-configuration",
+        "description": "---"
+    },
+    {
+        "name": "mtls-configuration",
+        "description": "---"
+    },
+    {
+        "name": "nodejs-best-practices",
+        "description": "---"
+    },
+    {
+        "name": "comprehensive-review-pr-enhance",
+        "description": "---"
+    },
+    {
+        "name": "service-mesh-expert",
+        "description": "---"
+    },
+    {
+        "name": "ai-engineer",
+        "description": "---"
+    },
+    {
+        "name": "claude-d3js-skill",
+        "description": "---"
+    },
+    {
+        "name": "tiktok-automation",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-translation-text-py",
+        "description": "---"
+    },
+    {
+        "name": "azure-storage-blob-java",
+        "description": "---"
+    },
+    {
+        "name": "computer-vision-expert",
+        "description": "---"
+    },
+    {
+        "name": "prompt-engineer",
+        "description": "---"
+    },
+    {
+        "name": "SPDD",
+        "description": "Sem descri\u00e7\u00e3o dispon\u00edvel."
+    },
+    {
+        "name": "azure-keyvault-keys-rust",
+        "description": "---"
+    },
+    {
+        "name": "azure-search-documents-ts",
+        "description": "---"
+    },
+    {
+        "name": "azure-maps-search-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "docker-expert",
+        "description": "---"
+    },
+    {
+        "name": "wrike-automation",
+        "description": "---"
+    },
+    {
+        "name": "design-md",
+        "description": "---"
+    },
+    {
+        "name": "test-fixing",
+        "description": "---"
+    },
+    {
+        "name": "auth-implementation-patterns",
+        "description": "---"
+    },
+    {
+        "name": "azure-storage-queue-ts",
+        "description": "---"
+    },
+    {
+        "name": "performance-testing-review-ai-review",
+        "description": "---"
+    },
+    {
+        "name": "azure-mgmt-apimanagement-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "azure-security-keyvault-keys-java",
+        "description": "---"
+    },
+    {
+        "name": "data-storytelling",
+        "description": "---"
+    },
+    {
+        "name": "m365-agents-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "devops-troubleshooter",
+        "description": "---"
+    },
+    {
+        "name": "bitbucket-automation",
+        "description": "---"
+    },
+    {
+        "name": "context-manager",
+        "description": "---"
+    },
+    {
+        "name": "startup-financial-modeling",
+        "description": "---"
+    },
+    {
+        "name": "software-architecture",
+        "description": "---"
+    },
+    {
+        "name": "azure-mgmt-applicationinsights-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "helm-chart-scaffolding",
+        "description": "---"
+    },
+    {
+        "name": "context-management-context-restore",
+        "description": "---"
+    },
+    {
+        "name": "cc-skill-backend-patterns",
+        "description": "---"
+    },
+    {
+        "name": "secrets-management",
+        "description": "---"
+    },
+    {
+        "name": "freshdesk-automation",
+        "description": "---"
+    },
+    {
+        "name": "github-actions-templates",
+        "description": "---"
+    },
+    {
+        "name": "azure-speech-to-text-rest-py",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-agents-persistent-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "data-quality-frameworks",
+        "description": "---"
+    },
+    {
+        "name": "personal-tool-builder",
+        "description": "---"
+    },
+    {
+        "name": "html-injection-testing",
+        "description": "---"
+    },
+    {
+        "name": "incident-responder",
+        "description": "---"
+    },
+    {
+        "name": "istio-traffic-management",
+        "description": "---"
+    },
+    {
+        "name": "python-testing-patterns",
+        "description": "---"
+    },
+    {
+        "name": "shopify-development",
+        "description": "---"
+    },
+    {
+        "name": "linear-automation",
+        "description": "---"
+    },
+    {
+        "name": "memory-systems",
+        "description": "---"
+    },
+    {
+        "name": "dx-optimizer",
+        "description": "---"
+    },
+    {
+        "name": "azure-eventhub-ts",
+        "description": "---"
+    },
+    {
+        "name": "unity-developer",
+        "description": "---"
+    },
+    {
+        "name": "similarity-search-patterns",
+        "description": "---"
+    },
+    {
+        "name": "seo-keyword-strategist",
+        "description": "---"
+    },
+    {
+        "name": "modern-javascript-patterns",
+        "description": "---"
+    },
+    {
+        "name": "azure-containerregistry-py",
+        "description": "---"
+    },
+    {
+        "name": "remotion-best-practices",
+        "description": "---"
+    },
+    {
+        "name": "documentation-templates",
+        "description": "---"
+    },
+    {
+        "name": "arm-cortex-expert",
+        "description": "---"
+    },
+    {
+        "name": "azure-storage-blob-rust",
+        "description": "---"
+    },
+    {
+        "name": "multi-cloud-architecture",
+        "description": "---"
+    },
+    {
+        "name": "box-automation",
+        "description": "---"
+    },
+    {
+        "name": "rag-implementation",
+        "description": "---"
+    },
+    {
+        "name": "langgraph",
+        "description": "---"
+    },
+    {
+        "name": "business-analyst",
+        "description": "---"
+    },
+    {
+        "name": "haskell-pro",
+        "description": "---"
+    },
+    {
+        "name": "python-packaging",
+        "description": "---"
+    },
+    {
+        "name": "scroll-experience",
+        "description": "---"
+    },
+    {
+        "name": "browser-automation",
+        "description": "---"
+    },
+    {
+        "name": "powershell-windows",
+        "description": "---"
+    },
+    {
+        "name": "unity-ecs-patterns",
+        "description": "---"
+    },
+    {
+        "name": "elixir-pro",
+        "description": "---"
+    },
+    {
+        "name": "swiftui-expert-skill",
+        "description": "---"
+    },
+    {
+        "name": "slack-automation",
+        "description": "---"
+    },
+    {
+        "name": "azure-keyvault-secrets-ts",
+        "description": "---"
+    },
+    {
+        "name": "codex-review",
+        "description": "---"
+    },
+    {
+        "name": "oss-hunter",
+        "description": "---"
+    },
+    {
+        "name": "copywriting",
+        "description": "---"
+    },
+    {
+        "name": "one-drive-automation",
+        "description": "---"
+    },
+    {
+        "name": "azure-appconfiguration-ts",
+        "description": "---"
+    },
+    {
+        "name": "security-scanning-security-dependencies",
+        "description": "---"
+    },
+    {
+        "name": "data-scientist",
+        "description": "---"
+    },
+    {
+        "name": "ai-product",
+        "description": "---"
+    },
+    {
+        "name": "mcp-builder",
+        "description": "---"
+    },
+    {
+        "name": "agent-orchestration-multi-agent-optimize",
+        "description": "---"
+    },
+    {
+        "name": "tailwind-patterns",
+        "description": "---"
+    },
+    {
+        "name": "azure-mgmt-fabric-py",
+        "description": "---"
+    },
+    {
+        "name": "c4-component",
+        "description": "---"
+    },
+    {
+        "name": "ethical-hacking-methodology",
+        "description": "---"
+    },
+    {
+        "name": "security-scanning-security-hardening",
+        "description": "---"
+    },
+    {
+        "name": "database-admin",
+        "description": "---"
+    },
+    {
+        "name": "salesforce-development",
+        "description": "---"
+    },
+    {
+        "name": "docx-official",
+        "description": "---"
+    },
+    {
+        "name": "prompt-library",
+        "description": "---"
+    },
+    {
+        "name": "using-neon",
+        "description": "---"
+    },
+    {
+        "name": "asana-automation",
+        "description": "---"
+    },
+    {
+        "name": "gitops-workflow",
+        "description": "---"
+    },
+    {
+        "name": "seo-audit",
+        "description": "---"
+    },
+    {
+        "name": "pipedrive-automation",
+        "description": "---"
+    },
+    {
+        "name": "agent-orchestration-improve-agent",
+        "description": "---"
+    },
+    {
+        "name": "angular-best-practices",
+        "description": "---"
+    },
+    {
+        "name": "algolia-search",
+        "description": "---"
+    },
+    {
+        "name": "typescript-expert",
+        "description": "---"
+    },
+    {
+        "name": "agent-memory-mcp",
+        "description": "---"
+    },
+    {
+        "name": "azure-storage-blob-ts",
+        "description": "---"
+    },
+    {
+        "name": "azure-storage-file-share-ts",
+        "description": "---"
+    },
+    {
+        "name": "close-automation",
+        "description": "---"
+    },
+    {
+        "name": "deployment-validation-config-validate",
+        "description": "---"
+    },
+    {
+        "name": "assets",
+        "description": "Sem descri\u00e7\u00e3o dispon\u00edvel."
+    },
+    {
+        "name": "google-calendar-automation",
+        "description": "---"
+    },
+    {
+        "name": "firebase",
+        "description": "---"
+    },
+    {
+        "name": "react-modernization",
+        "description": "---"
+    },
+    {
+        "name": "seo-cannibalization-detector",
+        "description": "---"
+    },
+    {
+        "name": "concise-planning",
+        "description": "---"
+    },
+    {
+        "name": "grafana-dashboards",
+        "description": "---"
+    },
+    {
+        "name": "gitlab-automation",
+        "description": "---"
+    },
+    {
+        "name": "browser-extension-builder",
+        "description": "---"
+    },
+    {
+        "name": "payment-integration",
+        "description": "---"
+    },
+    {
+        "name": "context-optimization",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-formrecognizer-java",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-transcription-py",
+        "description": "---"
+    },
+    {
+        "name": "bamboohr-automation",
+        "description": "---"
+    },
+    {
+        "name": "file-uploads",
+        "description": "---"
+    },
+    {
+        "name": "c4-code",
+        "description": "---"
+    },
+    {
+        "name": "outlook-automation",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-contentsafety-py",
+        "description": "---"
+    },
+    {
+        "name": "mlops-engineer",
+        "description": "---"
+    },
+    {
+        "name": "using-superpowers",
+        "description": "---"
+    },
+    {
+        "name": "game-development",
+        "description": "---"
+    },
+    {
+        "name": "risk-manager",
+        "description": "---"
+    },
+    {
+        "name": "deep-research",
+        "description": "---"
+    },
+    {
+        "name": "tdd-workflows-tdd-green",
+        "description": "---"
+    },
+    {
+        "name": "youtube-summarizer",
+        "description": "---"
+    },
+    {
+        "name": "backend-security-coder",
+        "description": "---"
+    },
+    {
+        "name": "framework-migration-legacy-modernize",
+        "description": "---"
+    },
+    {
+        "name": "pricing-strategy",
+        "description": "---"
+    },
+    {
+        "name": "lib",
+        "description": "Sem descri\u00e7\u00e3o dispon\u00edvel."
+    },
+    {
+        "name": "web-artifacts-builder",
+        "description": "---"
+    },
+    {
+        "name": "firmware-analyst",
+        "description": "---"
+    },
+    {
+        "name": "micro-saas-launcher",
+        "description": "---"
+    },
+    {
+        "name": "market-sizing-analysis",
+        "description": "---"
+    },
+    {
+        "name": "azure-appconfiguration-java",
+        "description": "---"
+    },
+    {
+        "name": "dbt-transformation-patterns",
+        "description": "---"
+    },
+    {
+        "name": "pentest-checklist",
+        "description": "---"
+    },
+    {
+        "name": "verification-before-completion",
+        "description": "---"
+    },
+    {
+        "name": "context-management-context-save",
+        "description": "---"
+    },
+    {
+        "name": "app-builder",
+        "description": "---"
+    },
+    {
+        "name": "brand-guidelines-anthropic",
+        "description": "---"
+    },
+    {
+        "name": "azure-monitor-query-py",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-ml-py",
+        "description": "---"
+    },
+    {
+        "name": "sql-optimization-patterns",
+        "description": "---"
+    },
+    {
+        "name": "linux-privilege-escalation",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-voicelive-py",
+        "description": "---"
+    },
+    {
+        "name": "comprehensive-review-full-review",
+        "description": "---"
+    },
+    {
+        "name": "security-auditor",
+        "description": "---"
+    },
+    {
+        "name": "skill-creator",
+        "description": "---"
+    },
+    {
+        "name": "ui-ux-pro-max",
+        "description": "---"
+    },
+    {
+        "name": "linkerd-patterns",
+        "description": "---"
+    },
+    {
+        "name": "cc-skill-project-guidelines-example",
+        "description": "---"
+    },
+    {
+        "name": "azure-data-tables-py",
+        "description": "---"
+    },
+    {
+        "name": "production-code-audit",
+        "description": "---"
+    },
+    {
+        "name": "discord-automation",
+        "description": "---"
+    },
+    {
+        "name": "fal-audio",
+        "description": "---"
+    },
+    {
+        "name": "salesforce-automation",
+        "description": "---"
+    },
+    {
+        "name": "scala-pro",
+        "description": "---"
+    },
+    {
+        "name": "wcag-audit-patterns",
+        "description": "---"
+    },
+    {
+        "name": "firecrawl-scraper",
+        "description": "---"
+    },
+    {
+        "name": "fix-review",
+        "description": "---"
+    },
+    {
+        "name": "frontend-design",
+        "description": "---"
+    },
+    {
+        "name": "data",
+        "description": "Sem descri\u00e7\u00e3o dispon\u00edvel."
+    },
+    {
+        "name": "go-playwright",
+        "description": "---"
+    },
+    {
+        "name": "debugging-strategies",
+        "description": "---"
+    },
+    {
+        "name": "computer-use-agents",
+        "description": "---"
+    },
+    {
+        "name": "autonomous-agent-patterns",
+        "description": "---"
+    },
+    {
+        "name": "tdd-workflows-tdd-cycle",
+        "description": "---"
+    },
+    {
+        "name": "csharp-pro",
+        "description": "---"
+    },
+    {
+        "name": "azure-compute-batch-java",
+        "description": "---"
+    },
+    {
+        "name": "azure-mgmt-botservice-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "nft-standards",
+        "description": "---"
+    },
+    {
+        "name": "microsoft-azure-webjobs-extensions-authentication-events-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "code-review-checklist",
+        "description": "---"
+    },
+    {
+        "name": "conductor-manage",
+        "description": "---"
+    },
+    {
+        "name": "makepad-skills",
+        "description": "---"
+    },
+    {
+        "name": "error-diagnostics-error-analysis",
+        "description": "---"
+    },
+    {
+        "name": "codebase-cleanup-refactor-clean",
+        "description": "---"
+    },
+    {
+        "name": "cc-skill-clickhouse-io",
+        "description": "---"
+    },
+    {
+        "name": "broken-authentication",
+        "description": "---"
+    },
+    {
+        "name": "dependency-upgrade",
+        "description": "---"
+    },
+    {
+        "name": "sentry-automation",
+        "description": "---"
+    },
+    {
+        "name": "whatsapp-automation",
+        "description": "---"
+    },
+    {
+        "name": "calendly-automation",
+        "description": "---"
+    },
+    {
+        "name": "workflow-patterns",
+        "description": "---"
+    },
+    {
+        "name": "startup-business-analyst-market-opportunity",
+        "description": "---"
+    },
+    {
+        "name": "azure-communication-chat-java",
+        "description": "---"
+    },
+    {
+        "name": "avalonia-zafiro-development",
+        "description": "---"
+    },
+    {
+        "name": "telegram-automation",
+        "description": "---"
+    },
+    {
+        "name": "skill-rails-upgrade",
+        "description": "---"
+    },
+    {
+        "name": "pentest-commands",
+        "description": "---"
+    },
+    {
+        "name": "discord-bot-architect",
+        "description": "---"
+    },
+    {
+        "name": "azure-mgmt-botservice-py",
+        "description": "---"
+    },
+    {
+        "name": "slo-implementation",
+        "description": "---"
+    },
+    {
+        "name": "form-cro",
+        "description": "---"
+    },
+    {
+        "name": "git-pushing",
+        "description": "---"
+    },
+    {
+        "name": "fastapi-templates",
+        "description": "---"
+    },
+    {
+        "name": "github-automation",
+        "description": "---"
+    },
+    {
+        "name": "social-content",
+        "description": "---"
+    },
+    {
+        "name": "saga-orchestration",
+        "description": "---"
+    },
+    {
+        "name": "angular-state-management",
+        "description": "---"
+    },
+    {
+        "name": "error-diagnostics-smart-debug",
+        "description": "---"
+    },
+    {
+        "name": "context7-auto-research",
+        "description": "---"
+    },
+    {
+        "name": "hubspot-automation",
+        "description": "---"
+    },
+    {
+        "name": "conductor-new-track",
+        "description": "---"
+    },
+    {
+        "name": "monday-automation",
+        "description": "---"
+    },
+    {
+        "name": "azure-keyvault-certificates-rust",
+        "description": "---"
+    },
+    {
+        "name": "code-refactoring-refactor-clean",
+        "description": "---"
+    },
+    {
+        "name": "supabase-automation",
+        "description": "---"
+    },
+    {
+        "name": "nestjs-expert",
+        "description": "---"
+    },
+    {
+        "name": "vercel-deployment",
+        "description": "---"
+    },
+    {
+        "name": "risk-metrics-calculation",
+        "description": "---"
+    },
+    {
+        "name": "email-sequence",
+        "description": "---"
+    },
+    {
+        "name": "confluence-automation",
+        "description": "---"
+    },
+    {
+        "name": "azure-keyvault-py",
+        "description": "---"
+    },
+    {
+        "name": "core-components",
+        "description": "---"
+    },
+    {
+        "name": "employment-contract-templates",
+        "description": "---"
+    },
+    {
+        "name": "plan-writing",
+        "description": "---"
+    },
+    {
+        "name": "azure-communication-sms-java",
+        "description": "---"
+    },
+    {
+        "name": "javascript-mastery",
+        "description": "---"
+    },
+    {
+        "name": "python-development-python-scaffold",
+        "description": "---"
+    },
+    {
+        "name": "subagent-driven-development",
+        "description": "---"
+    },
+    {
+        "name": "api-patterns",
+        "description": "---"
+    },
+    {
+        "name": "seo-meta-optimizer",
+        "description": "---"
+    },
+    {
+        "name": "fal-generate",
+        "description": "---"
+    },
+    {
+        "name": "test-automator",
+        "description": "---"
+    },
+    {
+        "name": "azure-monitor-opentelemetry-ts",
+        "description": "---"
+    },
+    {
+        "name": "hr-pro",
+        "description": "---"
+    },
+    {
+        "name": "bash-linux",
+        "description": "---"
+    },
+    {
+        "name": "hugging-face-jobs",
+        "description": "---"
+    },
+    {
+        "name": "trigger-dev",
+        "description": "---"
+    },
+    {
+        "name": "ml-pipeline-workflow",
+        "description": "---"
+    },
+    {
+        "name": "architecture-decision-records",
+        "description": "---"
+    },
+    {
+        "name": "react-state-management",
+        "description": "---"
+    },
+    {
+        "name": "amplitude-automation",
+        "description": "---"
+    },
+    {
+        "name": "brainstorming",
+        "description": "---"
+    },
+    {
+        "name": "ai-wrapper-product",
+        "description": "---"
+    },
+    {
+        "name": "varlock-claude-skill",
+        "description": "---"
+    },
+    {
+        "name": "automate-whatsapp",
+        "description": "---"
+    },
+    {
+        "name": "planning-with-files",
+        "description": "---"
+    },
+    {
+        "name": "azure-keyvault-secrets-rust",
+        "description": "---"
+    },
+    {
+        "name": "python-patterns",
+        "description": "---"
+    },
+    {
+        "name": "internal-comms-anthropic",
+        "description": "---"
+    },
+    {
+        "name": "web-design-guidelines",
+        "description": "---"
+    },
+    {
+        "name": "vector-index-tuning",
+        "description": "---"
+    },
+    {
+        "name": "async-python-patterns",
+        "description": "---"
+    },
+    {
+        "name": "framework-migration-code-migrate",
+        "description": "---"
+    },
+    {
+        "name": "legacy-modernizer",
+        "description": "---"
+    },
+    {
+        "name": "debugger",
+        "description": "---"
+    },
+    {
+        "name": "fp-ts-errors",
+        "description": "---"
+    },
+    {
+        "name": "javascript-testing-patterns",
+        "description": "---"
+    },
+    {
+        "name": "observability-monitoring-slo-implement",
+        "description": "---"
+    },
+    {
+        "name": "skill-seekers",
+        "description": "---"
+    },
+    {
+        "name": "segment-cdp",
+        "description": "---"
+    },
+    {
+        "name": "sql-pro",
+        "description": "---"
+    },
+    {
+        "name": "pagerduty-automation",
+        "description": "---"
+    },
+    {
+        "name": "terraform-module-library",
+        "description": "---"
+    },
+    {
+        "name": "deployment-procedures",
+        "description": "---"
+    },
+    {
+        "name": "docs-architect",
+        "description": "---"
+    },
+    {
+        "name": "playwright-skill",
+        "description": "---"
+    },
+    {
+        "name": "azure-cosmos-db-py",
+        "description": "---"
+    },
+    {
+        "name": "mobile-developer",
+        "description": "---"
+    },
+    {
+        "name": "database-architect",
+        "description": "---"
+    },
+    {
+        "name": "fastapi-pro",
+        "description": "---"
+    },
+    {
+        "name": "skill-creator-ms",
+        "description": "---"
+    },
+    {
+        "name": "culture-index",
+        "description": "---"
+    },
+    {
+        "name": "langchain-architecture",
+        "description": "---"
+    },
+    {
+        "name": "clean-code",
+        "description": "---"
+    },
+    {
+        "name": "julia-pro",
+        "description": "---"
+    },
+    {
+        "name": "observe-whatsapp",
+        "description": "---"
+    },
+    {
+        "name": "network-engineer",
+        "description": "---"
+    },
+    {
+        "name": "kaizen",
+        "description": "---"
+    },
+    {
+        "name": "llm-application-dev-ai-assistant",
+        "description": "---"
+    },
+    {
+        "name": "freshservice-automation",
+        "description": "---"
+    },
+    {
+        "name": "outlook-calendar-automation",
+        "description": "---"
+    },
+    {
+        "name": "docx",
+        "description": "---"
+    },
+    {
+        "name": "writing-skills",
+        "description": "---"
+    },
+    {
+        "name": "git-pr-workflows-git-workflow",
+        "description": "---"
+    },
+    {
+        "name": "azure-eventhub-java",
+        "description": "---"
+    },
+    {
+        "name": "moodle-external-api-development",
+        "description": "---"
+    },
+    {
+        "name": "memory-forensics",
+        "description": "---"
+    },
+    {
+        "name": "zoho-crm-automation",
+        "description": "---"
+    },
+    {
+        "name": "twilio-communications",
+        "description": "---"
+    },
+    {
+        "name": "gemini-api-dev",
+        "description": "---"
+    },
+    {
+        "name": "expo-deployment",
+        "description": "---"
+    },
+    {
+        "name": "vector-database-engineer",
+        "description": "---"
+    },
+    {
+        "name": "azure-monitor-opentelemetry-exporter-py",
+        "description": "---"
+    },
+    {
+        "name": "azure-keyvault-keys-ts",
+        "description": "---"
+    },
+    {
+        "name": "autonomous-agents",
+        "description": "---"
+    },
+    {
+        "name": "neon-postgres",
+        "description": "---"
+    },
+    {
+        "name": "vexor",
+        "description": "---"
+    },
+    {
+        "name": "azure-microsoft-playwright-testing-ts",
+        "description": "---"
+    },
+    {
+        "name": "conductor-setup",
+        "description": "---"
+    },
+    {
+        "name": "last30days",
+        "description": "---"
+    },
+    {
+        "name": "marketing-ideas",
+        "description": "---"
+    },
+    {
+        "name": "square-automation",
+        "description": "---"
+    },
+    {
+        "name": "ffuf-claude-skill",
+        "description": "---"
+    },
+    {
+        "name": "angular",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-contentsafety-ts",
+        "description": "---"
+    },
+    {
+        "name": "senior-fullstack",
+        "description": "---"
+    },
+    {
+        "name": "plaid-fintech",
+        "description": "---"
+    },
+    {
+        "name": "behavioral-modes",
+        "description": "---"
+    },
+    {
+        "name": "microservices-patterns",
+        "description": "---"
+    },
+    {
+        "name": "mobile-design",
+        "description": "---"
+    },
+    {
+        "name": "finishing-a-development-branch",
+        "description": "---"
+    },
+    {
+        "name": "track-management",
+        "description": "---"
+    },
+    {
+        "name": "klaviyo-automation",
+        "description": "---"
+    },
+    {
+        "name": "context-degradation",
+        "description": "---"
+    },
+    {
+        "name": "database-design",
+        "description": "---"
+    },
+    {
+        "name": "cloud-architect",
+        "description": "---"
+    },
+    {
+        "name": "copilot-sdk",
+        "description": "---"
+    },
+    {
+        "name": "typescript-pro",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-contentsafety-java",
+        "description": "---"
+    },
+    {
+        "name": "team-collaboration-issue",
+        "description": "---"
+    },
+    {
+        "name": "lint-and-validate",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-contentunderstanding-py",
+        "description": "---"
+    },
+    {
+        "name": "cc-skill-security-review",
+        "description": "---"
+    },
+    {
+        "name": "pypict-skill",
+        "description": "---"
+    },
+    {
+        "name": "threat-modeling-expert",
+        "description": "---"
+    },
+    {
+        "name": "azure-cosmos-rust",
+        "description": "---"
+    },
+    {
+        "name": "make-automation",
+        "description": "---"
+    },
+    {
+        "name": "azure-storage-file-datalake-py",
+        "description": "---"
+    },
+    {
+        "name": "unit-testing-test-generate",
+        "description": "---"
+    },
+    {
+        "name": "zoom-automation",
+        "description": "---"
+    },
+    {
+        "name": "sql-injection-testing",
+        "description": "---"
+    },
+    {
+        "name": "conductor-revert",
+        "description": "---"
+    },
+    {
+        "name": "backend-development-feature-development",
+        "description": "---"
+    },
+    {
+        "name": "cc-skill-coding-standards",
+        "description": "---"
+    },
+    {
+        "name": "analytics-tracking",
+        "description": "---"
+    },
+    {
+        "name": "brand-guidelines-community",
+        "description": "---"
+    },
+    {
+        "name": "monorepo-management",
+        "description": "---"
+    },
+    {
+        "name": "tutorial-engineer",
+        "description": "---"
+    },
+    {
+        "name": "azure-security-keyvault-keys-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "api-documenter",
+        "description": "---"
+    },
+    {
+        "name": "theme-factory",
+        "description": "---"
+    },
+    {
+        "name": "tdd-workflows-tdd-red",
+        "description": "---"
+    },
+    {
+        "name": "api-documentation-generator",
+        "description": "---"
+    },
+    {
+        "name": "red-team-tools",
+        "description": "---"
+    },
+    {
+        "name": "code-refactoring-context-restore",
+        "description": "---"
+    },
+    {
+        "name": "changelog-automation",
+        "description": "---"
+    },
+    {
+        "name": "temporal-python-pro",
+        "description": "---"
+    },
+    {
+        "name": "team-composition-analysis",
+        "description": "---"
+    },
+    {
+        "name": "upstash-qstash",
+        "description": "---"
+    },
+    {
+        "name": "cicd-automation-workflow-automate",
+        "description": "---"
+    },
+    {
+        "name": "infinite-gratitude",
+        "description": "---"
+    },
+    {
+        "name": "azure-monitor-opentelemetry-py",
+        "description": "---"
+    },
+    {
+        "name": "dispatching-parallel-agents",
+        "description": "---"
+    },
+    {
+        "name": "wiki-changelog",
+        "description": "---"
+    },
+    {
+        "name": "frontend-mobile-development-component-scaffold",
+        "description": "---"
+    },
+    {
+        "name": "azure-postgres-ts",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-projects-ts",
+        "description": "---"
+    },
+    {
+        "name": "seo-structure-architect",
+        "description": "---"
+    },
+    {
+        "name": "ios-developer",
+        "description": "---"
+    },
+    {
+        "name": "postgresql",
+        "description": "---"
+    },
+    {
+        "name": "incident-response-incident-response",
+        "description": "---"
+    },
+    {
+        "name": "azure-mgmt-mongodbatlas-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "wiki-architect",
+        "description": "---"
+    },
+    {
+        "name": "daily-news-report",
+        "description": "---"
+    },
+    {
+        "name": "mobile-security-coder",
+        "description": "---"
+    },
+    {
+        "name": "malware-analyst",
+        "description": "---"
+    },
+    {
+        "name": "airflow-dag-patterns",
+        "description": "---"
+    },
+    {
+        "name": "internal-comms-community",
+        "description": "---"
+    },
+    {
+        "name": "startup-business-analyst-financial-projections",
+        "description": "---"
+    },
+    {
+        "name": "stripe-integration",
+        "description": "---"
+    },
+    {
+        "name": "docs",
+        "description": "Sem descri\u00e7\u00e3o dispon\u00edvel."
+    },
+    {
+        "name": "azure-cosmos-py",
+        "description": "---"
+    },
+    {
+        "name": "aws-serverless",
+        "description": "---"
+    },
+    {
+        "name": "github-workflow-automation",
+        "description": "---"
+    },
+    {
+        "name": "mcp-builder-ms",
+        "description": "---"
+    },
+    {
+        "name": "attack-tree-construction",
+        "description": "---"
+    },
+    {
+        "name": "legal-advisor",
+        "description": "---"
+    },
+    {
+        "name": "code-review-ai-ai-review",
+        "description": "---"
+    },
+    {
+        "name": "readme",
+        "description": "---"
+    },
+    {
+        "name": "deployment-engineer",
+        "description": "---"
+    },
+    {
+        "name": "azure-monitor-ingestion-py",
+        "description": "---"
+    },
+    {
+        "name": "hybrid-cloud-networking",
+        "description": "---"
+    },
+    {
+        "name": "rust-pro",
+        "description": "---"
+    },
+    {
+        "name": "git-advanced-workflows",
+        "description": "---"
+    },
+    {
+        "name": "backtesting-frameworks",
+        "description": "---"
+    },
+    {
+        "name": "backend-architect",
+        "description": "---"
+    },
+    {
+        "name": "turborepo-caching",
+        "description": "---"
+    },
+    {
+        "name": "google-drive-automation",
+        "description": "---"
+    },
+    {
+        "name": "onboarding-cro",
+        "description": "---"
+    },
+    {
+        "name": "intercom-automation",
+        "description": "---"
+    },
+    {
+        "name": "security-requirement-extraction",
+        "description": "---"
+    },
+    {
+        "name": "code-refactoring-tech-debt",
+        "description": "---"
+    },
+    {
+        "name": "kpi-dashboard-design",
+        "description": "---"
+    },
+    {
+        "name": "application-performance-performance-optimization",
+        "description": "---"
+    },
+    {
+        "name": "accessibility-compliance-accessibility-audit",
+        "description": "---"
+    },
+    {
+        "name": "cal-com-automation",
+        "description": "---"
+    },
+    {
+        "name": "error-debugging-error-analysis",
+        "description": "---"
+    },
+    {
+        "name": "x-article-publisher-skill",
+        "description": "---"
+    },
+    {
+        "name": "red-team-tactics",
+        "description": "---"
+    },
+    {
+        "name": "radix-ui-design-system",
+        "description": "---"
+    },
+    {
+        "name": "python-performance-optimization",
+        "description": "---"
+    },
+    {
+        "name": "render-automation",
+        "description": "---"
+    },
+    {
+        "name": "typescript-advanced-types",
+        "description": "---"
+    },
+    {
+        "name": "azure-resource-manager-playwright-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "find-bugs",
+        "description": "---"
+    },
+    {
+        "name": "cost-optimization",
+        "description": "---"
+    },
+    {
+        "name": "wireshark-analysis",
+        "description": "---"
+    },
+    {
+        "name": "solidity-security",
+        "description": "---"
+    },
+    {
+        "name": "api-testing-observability-api-mock",
+        "description": "---"
+    },
+    {
+        "name": "systematic-debugging",
+        "description": "---"
+    },
+    {
+        "name": "data-engineering-data-pipeline",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-projects-java",
+        "description": "---"
+    },
+    {
+        "name": "wiki-onboarding",
+        "description": "---"
+    },
+    {
+        "name": "prompt-engineering",
+        "description": "---"
+    },
+    {
+        "name": "bazel-build-optimization",
+        "description": "---"
+    },
+    {
+        "name": "nextjs-best-practices",
+        "description": "---"
+    },
+    {
+        "name": "azure-communication-callautomation-java",
+        "description": "---"
+    },
+    {
+        "name": "azure-ai-agents-persistent-java",
+        "description": "---"
+    },
+    {
+        "name": "reddit-automation",
+        "description": "---"
+    },
+    {
+        "name": "seo-content-refresher",
+        "description": "---"
+    },
+    {
+        "name": "pci-compliance",
+        "description": "---"
+    },
+    {
+        "name": "product-manager-toolkit",
+        "description": "---"
+    },
+    {
+        "name": "commit",
+        "description": "---"
+    },
+    {
+        "name": "dependency-management-deps-audit",
+        "description": "---"
+    },
+    {
+        "name": "antigravity-workflows",
+        "description": "---"
+    },
+    {
+        "name": "multi-agent-brainstorming",
+        "description": "---"
+    },
+    {
+        "name": "azure-mgmt-arizeaiobservabilityeval-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "spark-optimization",
+        "description": "---"
+    },
+    {
+        "name": "fp-ts-react",
+        "description": "---"
+    },
+    {
+        "name": "reverse-engineer",
+        "description": "---"
+    },
+    {
+        "name": "voice-ai-development",
+        "description": "---"
+    },
+    {
+        "name": "agent-memory-systems",
+        "description": "---"
+    },
+    {
+        "name": "parallel-agents",
+        "description": "---"
+    },
+    {
+        "name": "seo-snippet-hunter",
+        "description": "---"
+    },
+    {
+        "name": "observability-engineer",
+        "description": "---"
+    },
+    {
+        "name": "azure-eventhub-rust",
+        "description": "---"
+    },
+    {
+        "name": "sqlmap-database-pentesting",
+        "description": "---"
+    },
+    {
+        "name": "pydantic-models-py",
+        "description": "---"
+    },
+    {
+        "name": "uv-package-manager",
+        "description": "---"
+    },
+    {
+        "name": "nextjs-supabase-auth",
+        "description": "---"
+    },
+    {
+        "name": "pptx",
+        "description": "---"
+    },
+    {
+        "name": "azure-resource-manager-redis-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "tdd-workflows-tdd-refactor",
+        "description": "---"
+    },
+    {
+        "name": "event-store-design",
+        "description": "---"
+    },
+    {
+        "name": "cc-skill-continuous-learning",
+        "description": "---"
+    },
+    {
+        "name": "wiki-researcher",
+        "description": "---"
+    },
+    {
+        "name": "azure-cosmos-ts",
+        "description": "---"
+    },
+    {
+        "name": "go-concurrency-patterns",
+        "description": "---"
+    },
+    {
+        "name": "clerk-auth",
+        "description": "---"
+    },
+    {
+        "name": "hybrid-cloud-architect",
+        "description": "---"
+    },
+    {
+        "name": "ui-visual-validator",
+        "description": "---"
+    },
+    {
+        "name": "frontend-ui-dark-ts",
+        "description": "---"
+    },
+    {
+        "name": "twitter-automation",
+        "description": "---"
+    },
+    {
+        "name": "flutter-expert",
+        "description": "---"
+    },
+    {
+        "name": "incident-runbook-templates",
+        "description": "---"
+    },
+    {
+        "name": "screen-reader-testing",
+        "description": "---"
+    },
+    {
+        "name": "conversation-memory",
+        "description": "---"
+    },
+    {
+        "name": "audio-transcriber",
+        "description": "---"
+    },
+    {
+        "name": "threat-mitigation-mapping",
+        "description": "---"
+    },
+    {
+        "name": "frontend-dev-guidelines",
+        "description": "---"
+    },
+    {
+        "name": "azure-eventhub-py",
+        "description": "---"
+    },
+    {
+        "name": "azure-security-keyvault-secrets-java",
+        "description": "---"
+    },
+    {
+        "name": "on-call-handoff-patterns",
+        "description": "---"
+    },
+    {
+        "name": "javascript-pro",
+        "description": "---"
+    },
+    {
+        "name": "error-diagnostics-error-trace",
+        "description": "---"
+    },
+    {
+        "name": "clickup-automation",
+        "description": "---"
+    },
+    {
+        "name": "codebase-cleanup-tech-debt",
+        "description": "---"
+    },
+    {
+        "name": "azure-communication-common-java",
+        "description": "---"
+    },
+    {
+        "name": "notion-automation",
+        "description": "---"
+    },
+    {
+        "name": "architecture",
+        "description": "---"
+    },
+    {
+        "name": "address-github-comments",
+        "description": "---"
+    },
+    {
+        "name": "bash-pro",
+        "description": "---"
+    },
+    {
+        "name": "workflow-automation",
+        "description": "---"
+    },
+    {
+        "name": "test-driven-development",
+        "description": "---"
+    },
+    {
+        "name": "3d-web-experience",
+        "description": "---"
+    },
+    {
+        "name": "e2e-testing-patterns",
+        "description": "---"
+    },
+    {
+        "name": "php-pro",
+        "description": "---"
+    },
+    {
+        "name": "react-patterns",
+        "description": "---"
+    },
+    {
+        "name": "server-management",
+        "description": "---"
+    },
+    {
+        "name": "zustand-store-ts",
+        "description": "---"
+    },
+    {
+        "name": "azure-resource-manager-mysql-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "protocol-reverse-engineering",
+        "description": "---"
+    },
+    {
+        "name": "azure-resource-manager-cosmosdb-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "azure-eventgrid-dotnet",
+        "description": "---"
+    },
+    {
+        "name": "minecraft-bukkit-pro",
+        "description": "---"
+    },
+    {
+        "name": "docusign-automation",
+        "description": "---"
+    },
+    {
+        "name": "sendgrid-automation",
+        "description": "---"
+    },
+    {
+        "name": "active-directory-attacks",
+        "description": "---"
+    },
+    {
+        "name": "fal-platform",
+        "description": "---"
+    },
+    {
+        "name": "fp-ts-pragmatic",
+        "description": "---"
+    },
+    {
+        "name": "bin",
+        "description": "Sem descri\u00e7\u00e3o dispon\u00edvel."
+    },
+    {
+        "name": "environment-setup-guide",
+        "description": "---"
+    },
+    {
+        "name": "performance-testing-review-multi-agent-review",
+        "description": "---"
+    }
+]

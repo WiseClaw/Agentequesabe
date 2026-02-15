@@ -63,3 +63,37 @@
 - **Phase 1 (Living Memory):** Refactored  and integrated  into . Manager, Researcher, and Coder now check ChromaDB context before acting.
 - **Phase 2 (Action/MCP-Lite):** Implemented Tool Execution in . Can now read/write/list files and run commands via JSON output.
 - **Infrastructure:** Migrated entire fleet to  to bypass Anthropic/OpenAI rate limits. Verified via API tests.
+Sun Feb 15 03:02:27 AM UTC 2026: Phase C Upgrade - Watchdog Active, Ollama Local Fallback Integrated, Archivist v2 Proactive Memory Online.
+
+## [2026-02-15 03:17:59] Phase D Activation: MCP & Knowledge Graph
+- **Context:** Necessidade de padronização de ferramentas e visualização de memória complexa.
+- **Ação:** Implementação de servidor MCP, inicialização de Grafo de Conhecimento JSON e atualização do Dashboard.
+- **Retrospectiva:** A transição para MCP simplifica a expansão de ferramentas futuras.
+- **Lição:** Memória visual (grafos) ajuda na depuração de orquestrações complexas.
+## [2026-02-15 03:21:00] Emergency Brain Surgery: Hybrid Brain 2.3
+- **Context:** Falha total de APIs (Claude/OpenAI/Gemini 1.5 Pro).
+- **Ação:** Roteamento forçado para Gemini 2.0/1.5 Flash e Ollama Local.
+- **Status:** Inteligência restaurada via modelos de alta disponibilidade.
+## [2026-02-15 03:21:55] Phase D Finalized: MCP & Knowledge Graph Operational
+- **Status:** Bots reiniciados com PYTHONPATH corrigido. Inteligência restaurada via Gemini Flash.
+- **Infraestrutura:** Servidor MCP e Grafo de Conhecimento integrados e visíveis no Dashboard.
+## [2026-02-15 03:31:47] Hybrid Brain 2.4: Cognitive Cost-Benefit
+- **Política:** Roteamento baseado em complexidade (90% de margem de segurança).
+- **Cloud:** Reservado para tarefas complexas (Code/Security).
+- **Local:** Padrão para tarefas de rotina e fallback de quota.
+## [2026-02-15 03:32:22] WiseClaw OS v3.3: Quota Sync & Cognitive Sovereignty
+- **Ajuste de Quota:** Todos os modelos limitados a 90% do TPM/RPM máximo.
+- **Soberania Local:** Implementada como decisão estratégica, não debilitação.
+- **Prioridade:** Claude 3.5 Sonnet (Lógica) > Gemini Flash (Performance) > Ollama (Rotina).
+## [2026-02-15 03:40:20] WiseClaw OS v3.4: Global Resilience & Local Upgrade
+- **OpenRouter:** Integrado como camada de resiliência (DeepSeek V3).
+- **Ollama Upgrade:** Llama 3.1 8B em processo de instalação para Soberania Local superior.
+- **Hierarquia:** Claude > OpenRouter > Gemini > Llama 3.1.
+## [2026-02-15 03:40:36] WiseClaw OS v3.4: Global Resilience & Local Upgrade
+- **OpenRouter:** Integrado como camada de resiliência (DeepSeek V3).
+- **Ollama Upgrade:** Llama 3.1 8B em instalação para Soberania Local superior.
+- **Hierarquia:** Claude > OpenRouter > Gemini > Llama 3.1.
+## [2026-02-15 03:41:32] WiseClaw OS v3.4: Global Resilience & Local Upgrade
+- **OpenRouter:** Integrado como camada de resiliência (DeepSeek V3).
+- **Ollama Upgrade:** Llama 3.1 8B e Qwen 2.5 7B em instalação para Soberania Local superior.
+- **Hierarquia:** Claude > OpenRouter > Gemini > Llama 3.1 / Qwen.

@@ -1,40 +1,34 @@
-
 import chromadb
-from chromadb.utils import embedding_functions
+from chromadb.utils.embedding_functions import OllamaEmbeddingFunction
 import os
 
-class Librarian:
-    def __init__(self):
-        self.client = chromadb.PersistentClient(path="src/librarian/chroma_db")
-        self.collection = None
-        self.embedding_func = None
+COLLECTION_NAME = "wiseclaw_memory"
+CHROMA_PATH = "/a0/usr/workdir/src/librarian/chroma_db"
 
-    def _get_collection(self):
-        if self.collection:
-            return self.collection
+class FixedOllamaEF(OllamaEmbeddingFunction):
+    def name(self):
+        return "ollama"
 
-        # Lazy load embedding function
-        if not self.embedding_func:
-            print("[LIBRARIAN] Loading embedding model (this may take a moment)...")
-            try:
-                self.embedding_func = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
-            except Exception as e:
-                print(f"[LIBRARIAN ERROR] Failed to load embeddings: {e}")
-                return None
-
-        self.collection = self.client.get_or_create_collection(
-            name="wiseclaw_memory",
-            embedding_function=self.embedding_func
+def query_memory(prompt, n_results=3):
+    try:
+        client = chromadb.PersistentClient(path=CHROMA_PATH)
+        embedding_func = FixedOllamaEF(
+            model_name="nomic-embed-text",
+            url="http://localhost:11434/api/embeddings"
         )
-        return self.collection
 
-    def query(self, query_text, n_results=3):
-        collection = self._get_collection()
-        if not collection:
-            return "[MEMORY ERROR] Database unavailable."
+        collection = client.get_or_create_collection(
+            name=COLLECTION_NAME,
+            embedding_function=embedding_func
+        )
 
         results = collection.query(
-            query_texts=[query_text],
+            query_texts=[prompt],
             n_results=n_results
         )
-        return results['documents'][0] if results['documents'] else []
+
+        if results and 'documents' in results and results['documents']:
+            return results['documents'][0]
+    except Exception as e:
+        print(f"Librarian Error: {e}")
+    return []

@@ -1,0 +1,229 @@
+/a0/skills/voice-ai-engine-development/examples/gemini_agent_example.py:    async def generate_response(
+/a0/skills/voice-ai-engine-development/examples/gemini_agent_example.py:            # async for chunk in self._create_gemini_stream(contents):
+/a0/skills/voice-ai-engine-development/examples/gemini_agent_example.py:            async for chunk in self._simulate_gemini_stream(user_input):
+/a0/skills/voice-ai-engine-development/examples/gemini_agent_example.py:    async def _simulate_gemini_stream(self, user_input: str) -> AsyncGenerator[str, None]:
+/a0/skills/voice-ai-engine-development/examples/gemini_agent_example.py:        async def _create_gemini_stream(self, contents):
+/a0/skills/voice-ai-engine-development/examples/gemini_agent_example.py:            async for chunk in response:
+/a0/skills/voice-ai-engine-development/examples/gemini_agent_example.py:async def example_usage():
+/a0/skills/voice-ai-engine-development/examples/gemini_agent_example.py:        async for response in agent.generate_response(user_message):
+/a0/skills/voice-ai-engine-development/examples/interrupt_system_example.py:    async def send_speech_to_output(
+/a0/skills/voice-ai-engine-development/examples/interrupt_system_example.py:        async for chunk_result in synthesis_result.chunk_generator:
+/a0/skills/voice-ai-engine-development/examples/interrupt_system_example.py:    async def process(self, transcription):
+/a0/skills/voice-ai-engine-development/examples/interrupt_system_example.py:    async def chunk_generator(self):
+/a0/skills/voice-ai-engine-development/examples/interrupt_system_example.py:async def example_interrupt_scenario():
+/a0/skills/voice-ai-engine-development/examples/interrupt_system_example.py:        async def consume_nonblocking(self, chunk):
+/a0/skills/voice-ai-engine-development/examples/complete_voice_engine.py:    async def _run_loop(self):
+/a0/skills/voice-ai-engine-development/examples/complete_voice_engine.py:    async def process(self, item):
+/a0/skills/voice-ai-engine-development/examples/complete_voice_engine.py:    async def process(self, audio_chunk: bytes):
+/a0/skills/voice-ai-engine-development/examples/complete_voice_engine.py:    async def process(self, transcription: Transcription):
+/a0/skills/voice-ai-engine-development/examples/complete_voice_engine.py:        async for response in self.generate_response(transcription.message):
+/a0/skills/voice-ai-engine-development/examples/complete_voice_engine.py:    async def generate_response(self, user_input: str) -> AsyncGenerator[AgentResponse, None]:
+/a0/skills/voice-ai-engine-development/examples/complete_voice_engine.py:    async def create_speech(self, message: str, chunk_size: int = 1024) -> SynthesisResult:
+/a0/skills/voice-ai-engine-development/examples/complete_voice_engine.py:        async def chunk_generator():
+/a0/skills/voice-ai-engine-development/examples/complete_voice_engine.py:    async def consume_nonblocking(self, chunk: bytes):
+/a0/skills/voice-ai-engine-development/examples/complete_voice_engine.py:    async def start(self):
+/a0/skills/voice-ai-engine-development/examples/complete_voice_engine.py:    async def _process_transcriptions(self):
+/a0/skills/voice-ai-engine-development/examples/complete_voice_engine.py:    async def _process_agent_responses(self):
+/a0/skills/voice-ai-engine-development/examples/complete_voice_engine.py:    async def _send_speech_to_output(self, synthesis_result: SynthesisResult, seconds_per_chunk: float):
+/a0/skills/voice-ai-engine-development/examples/complete_voice_engine.py:        async for chunk in synthesis_result.chunk_generator:
+/a0/skills/voice-ai-engine-development/examples/complete_voice_engine.py:    async def terminate(self):
+/a0/skills/voice-ai-engine-development/examples/complete_voice_engine.py:async def conversation_endpoint(websocket: WebSocket):
+/a0/skills/voice-ai-engine-development/examples/complete_voice_engine.py:        async for message in websocket.iter_bytes():
+/a0/skills/voice-ai-engine-development/templates/base_worker_template.py:    async def _run_loop(self):
+/a0/skills/voice-ai-engine-development/templates/base_worker_template.py:    async def process(self, item: Any):
+/a0/skills/voice-ai-engine-development/templates/base_worker_template.py:    async def wait_for_completion(self):
+/a0/skills/voice-ai-engine-development/templates/base_worker_template.py:    async def process(self, item: str):
+/a0/skills/voice-ai-engine-development/templates/base_worker_template.py:async def example_usage():
+/a0/skills/voice-ai-engine-development/templates/multi_provider_factory_template.py:    async def transcribe_stream(self, audio_stream):
+/a0/skills/voice-ai-engine-development/templates/multi_provider_factory_template.py:    async def generate_response(self, messages, stream=True):
+/a0/skills/voice-ai-engine-development/templates/multi_provider_factory_template.py:    async def synthesize_speech(self, text):
+/a0/skills/algorithmic-art/templates/generator_template.js:    const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+/a0/skills/api-design-principles/assets/rest-api-template.py:async def http_exception_handler(request, exc):
+/a0/skills/api-design-principles/assets/rest-api-template.py:async def list_users(
+/a0/skills/api-design-principles/assets/rest-api-template.py:async def create_user(user: UserCreate):
+/a0/skills/api-design-principles/assets/rest-api-template.py:async def get_user(user_id: str = Path(..., description="User ID")):
+/a0/skills/api-design-principles/assets/rest-api-template.py:async def update_user(user_id: str, update: UserUpdate):
+/a0/skills/api-design-principles/assets/rest-api-template.py:async def delete_user(user_id: str):
+/a0/skills/loki-mode/examples/todo-app-generated/frontend/src/hooks/useTodos.ts:    const loadTodos = async () => {
+/a0/skills/loki-mode/examples/todo-app-generated/frontend/src/hooks/useTodos.ts:  const addTodo = async (title: string) => {
+/a0/skills/loki-mode/examples/todo-app-generated/frontend/src/hooks/useTodos.ts:  const toggleTodo = async (id: number) => {
+/a0/skills/loki-mode/examples/todo-app-generated/frontend/src/hooks/useTodos.ts:  const removeTodo = async (id: number) => {
+/a0/skills/loki-mode/examples/todo-app-generated/frontend/src/api/todos.ts:export const fetchTodos = async (): Promise<Todo[]> => {
+/a0/skills/loki-mode/examples/todo-app-generated/frontend/src/api/todos.ts:export const createTodo = async (title: string): Promise<Todo> => {
+/a0/skills/loki-mode/examples/todo-app-generated/frontend/src/api/todos.ts:export const updateTodo = async (id: number, completed: boolean): Promise<Todo> => {
+/a0/skills/loki-mode/examples/todo-app-generated/frontend/src/api/todos.ts:export const deleteTodo = async (id: number): Promise<void> => {
+/a0/skills/loki-mode/examples/todo-app-generated/backend/src/db/migrations.ts:    db.exec(schema);
+/a0/skills/loki-mode/examples/todo-app-generated/backend/src/index.ts:const PORT = process.env.PORT || 3001;
+/a0/skills/loki-mode/tests/test-wrapper.sh:MAX_RETRIES = int(os.environ.get('LOKI_MAX_RETRIES', '50'))
+/a0/skills/loki-mode/tests/test-wrapper.sh:BASE_WAIT = int(os.environ.get('LOKI_BASE_WAIT', '60'))
+/a0/skills/loki-mode/tests/test-wrapper.sh:MAX_WAIT = int(os.environ.get('LOKI_MAX_WAIT', '3600'))
+/a0/skills/loki-mode/autonomy/run.sh:        async function loadJSON(path) {
+/a0/skills/loki-mode/autonomy/run.sh:        async function loadData() {
+/a0/skills/loki-mode/autonomy/run.sh:context = os.environ.get("LOKI_CONTEXT", "").lower()
+/a0/skills/loki-mode/scripts/take-screenshots.js:async function takeScreenshots() {
+/a0/skills/loki-mode/benchmarks/results/2026-01-05-00-49-17/humaneval-solutions/160.py:    return eval(expression)
+/a0/skills/loki-mode/benchmarks/results/humaneval-loki-solutions/129.py:        nr, nc = row_1 + dr, col_1 + dc
+/a0/skills/loki-mode/benchmarks/results/humaneval-loki-solutions/129.py:        if 0 <= nr < n and 0 <= nc < n:
+/a0/skills/loki-mode/benchmarks/results/humaneval-loki-solutions/160.py:    return eval(expression)
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:download_humaneval() {
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:run_humaneval() {
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:SCRIPT_DIR = os.environ.get('SCRIPT_DIR', '.')
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:RESULTS_DIR = os.environ.get('RESULTS_DIR', './results')
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:SCRIPT_DIR = os.environ.get('SCRIPT_DIR', '.')
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:RESULTS_DIR = os.environ.get('RESULTS_DIR', './results')
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:PROBLEM_LIMIT = int(os.environ.get('PROBLEM_LIMIT', '0'))
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:PROBLEM_TIMEOUT = int(os.environ.get('PROBLEM_TIMEOUT', '120'))
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:CLAUDE_MODEL = os.environ.get('CLAUDE_MODEL', 'sonnet')
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:SCRIPT_DIR = os.environ.get('SCRIPT_DIR', '.')
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:RESULTS_DIR = os.environ.get('RESULTS_DIR', './results')
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:PROBLEM_LIMIT = int(os.environ.get('PROBLEM_LIMIT', '0'))
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:PROBLEM_TIMEOUT = int(os.environ.get('PROBLEM_TIMEOUT', '120'))
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:CLAUDE_MODEL = os.environ.get('CLAUDE_MODEL', 'sonnet')
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:MAX_RETRIES = int(os.environ.get('MAX_RETRIES', '3'))
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:SCRIPT_DIR = os.environ.get('SCRIPT_DIR', '.')
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:RESULTS_DIR = os.environ.get('RESULTS_DIR', './results')
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:SCRIPT_DIR = os.environ.get('SCRIPT_DIR', '.')
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:RESULTS_DIR = os.environ.get('RESULTS_DIR', './results')
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:PROBLEM_LIMIT = int(os.environ.get('PROBLEM_LIMIT', '10'))  # Default to 10 for SWE-bench
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:PROBLEM_TIMEOUT = int(os.environ.get('PROBLEM_TIMEOUT', '300'))
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:CLAUDE_MODEL = os.environ.get('CLAUDE_MODEL', 'sonnet')
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:SCRIPT_DIR = os.environ.get('SCRIPT_DIR', '.')
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:RESULTS_DIR = os.environ.get('RESULTS_DIR', './results')
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:PROBLEM_LIMIT = int(os.environ.get('PROBLEM_LIMIT', '0'))
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:PROBLEM_TIMEOUT = int(os.environ.get('PROBLEM_TIMEOUT', '300'))
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:CLAUDE_MODEL = os.environ.get('CLAUDE_MODEL', 'sonnet')
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:MAX_RETRIES = int(os.environ.get('MAX_RETRIES', '3'))
+/a0/skills/loki-mode/benchmarks/run-benchmarks.sh:RESULTS_DIR = os.environ.get('RESULTS_DIR', './results')
+/a0/skills/vulnerability-scanner/scripts/security_scan.py:    (r'eval\s*\(', "eval() usage", "critical", "Code Injection risk"),
+/a0/skills/vulnerability-scanner/scripts/security_scan.py:    (r'exec\s*\(', "exec() usage", "critical", "Code Injection risk"),
+/a0/skills/vulnerability-scanner/scripts/security_scan.py:CONFIG_EXTENSIONS = {'.json', '.yaml', '.yml', '.toml', '.env', '.env.local', '.env.development'}
+/a0/skills/pptx-official/scripts/html2pptx.js:async function getBodyDimensions(page) {
+/a0/skills/pptx-official/scripts/html2pptx.js:async function addBackground(slideData, targetSlide, tmpDir) {
+/a0/skills/pptx-official/scripts/html2pptx.js:async function extractSlideData(page) {
+/a0/skills/pptx-official/scripts/html2pptx.js:async function html2pptx(htmlFile, pres, options = {}) {
+/a0/skills/pptx-official/scripts/html2pptx.js:    tmpDir = process.env.TMPDIR || '/tmp',
+/a0/skills/scripts/tests/test_comprehensive_coverage.py:Test Script: Verify Microsoft Skills Sync Coverage and Flat Name Uniqueness
+/a0/skills/scripts/sync_recommended_skills.sh:echo "🔄 Sync Recommended Skills"
+/a0/skills/scripts/sync_microsoft_skills.py:Sync Microsoft Skills Repository - v4 (Flat Structure)
+/a0/skills/scripts/sync_microsoft_skills.py:    """Remove skill directories from a previous sync using the attribution manifest."""
+/a0/skills/scripts/sync_microsoft_skills.py:    Sync all Microsoft skills into a flat structure under skills/.
+/a0/skills/scripts/sync_microsoft_skills.py:    # Sync plugin skills from .github/plugins/
+/a0/skills/scripts/sync_microsoft_skills.py:    # Sync skills in .github/skills/ not reachable via the skills/ symlink tree
+/a0/skills/scripts/sync_microsoft_skills.py:    """Main sync function."""
+/a0/skills/scripts/sync_microsoft_skills.py:    print("🚀 Microsoft Skills Sync Script v4 (Flat Structure)")
+/a0/skills/scripts/validate-skills.js:  process.env.STRICT === "1" ||
+/a0/skills/scripts/validate-skills.js:  process.env.STRICT === "true";
+/a0/skills/scripts/validate-skills.js:  process.env.WRITE_BASELINE === "1" ||
+/a0/skills/scripts/validate-skills.js:  process.env.WRITE_BASELINE === "true";
+/a0/skills/scripts/build-catalog.js:    generatedAt: process.env.SOURCE_DATE_EPOCH
+/a0/skills/scripts/build-catalog.js:      ? new Date(process.env.SOURCE_DATE_EPOCH * 1000).toISOString()
+/a0/skills/slack-gif-creator/core/easing.py:    ease_func = get_easing(easing)
+/a0/skills/shopify-development/scripts/tests/test_shopify_init.py:        """Test loading valid .env file."""
+/a0/skills/shopify-development/scripts/tests/test_shopify_init.py:        env_file = tmp_path / ".env"
+/a0/skills/shopify-development/scripts/tests/test_shopify_init.py:        """Test loading .env file with quoted values."""
+/a0/skills/shopify-development/scripts/tests/test_shopify_init.py:        env_file = tmp_path / ".env"
+/a0/skills/shopify-development/scripts/tests/test_shopify_init.py:        """Test loading non-existent .env file."""
+/a0/skills/shopify-development/scripts/tests/test_shopify_init.py:        result = EnvLoader.load_env_file(tmp_path / "nonexistent.env")
+/a0/skills/shopify-development/scripts/tests/test_shopify_init.py:        """Test loading .env file with invalid lines."""
+/a0/skills/shopify-development/scripts/tests/test_shopify_init.py:        env_file = tmp_path / ".env"
+/a0/skills/shopify-development/scripts/tests/test_shopify_init.py:        """Test getting .env file paths from universal directory structure."""
+/a0/skills/shopify-development/scripts/tests/test_shopify_init.py:        # Create .env files at each level
+/a0/skills/shopify-development/scripts/tests/test_shopify_init.py:        (skill_dir / ".env").write_text("SKILL=1")
+/a0/skills/shopify-development/scripts/tests/test_shopify_init.py:        (skills_dir / ".env").write_text("SKILLS=1")
+/a0/skills/shopify-development/scripts/tests/test_shopify_init.py:        (agent_dir / ".env").write_text("AGENT=1")
+/a0/skills/shopify-development/scripts/tests/test_shopify_init.py:        assert skill_dir / ".env" in paths
+/a0/skills/shopify-development/scripts/tests/test_shopify_init.py:        assert skills_dir / ".env" in paths
+/a0/skills/shopify-development/scripts/tests/test_shopify_init.py:        assert agent_dir / ".env" in paths
+/a0/skills/shopify-development/scripts/tests/test_shopify_init.py:        (skill_dir / ".env").write_text("SHOPIFY_API_KEY=skill_key")
+/a0/skills/shopify-development/scripts/tests/test_shopify_init.py:        (skills_dir / ".env").write_text("SHOPIFY_API_KEY=skills_key\nSHOP_DOMAIN=skills.myshopify.com")
+/a0/skills/shopify-development/scripts/tests/test_shopify_init.py:        # Shop domain from skills/.env
+/a0/skills/shopify-development/scripts/tests/test_shopify_init.py:        """Test configuration loading with no .env files."""
+/a0/skills/shopify-development/scripts/shopify_init.py:        Load environment variables from .env file.
+/a0/skills/shopify-development/scripts/shopify_init.py:            filepath: Path to .env file
+/a0/skills/shopify-development/scripts/shopify_init.py:        Get list of .env file paths in priority order.
+/a0/skills/shopify-development/scripts/shopify_init.py:        Priority: process.env > skill/.env > skills/.env > agent_dir/.env
+/a0/skills/shopify-development/scripts/shopify_init.py:            List of .env file paths
+/a0/skills/shopify-development/scripts/shopify_init.py:        # skill/.env
+/a0/skills/shopify-development/scripts/shopify_init.py:        skill_env = skill_dir / '.env'
+/a0/skills/shopify-development/scripts/shopify_init.py:        # skills/.env
+/a0/skills/shopify-development/scripts/shopify_init.py:        skills_env = skill_dir.parent / '.env'
+/a0/skills/shopify-development/scripts/shopify_init.py:        # agent_dir/.env (e.g., .agent, .claude, .gemini, .cursor)
+/a0/skills/shopify-development/scripts/shopify_init.py:        agent_env = skill_dir.parent.parent / '.env'
+/a0/skills/shopify-development/scripts/shopify_init.py:        Priority: process.env > skill/.env > skills/.env > agent_dir/.env
+/a0/skills/shopify-development/scripts/shopify_init.py:        # Load from .env files (reverse priority order)
+/a0/skills/shopify-development/scripts/shopify_init.py:        if 'SHOPIFY_API_KEY' in os.environ:
+/a0/skills/shopify-development/scripts/shopify_init.py:            config.shopify_api_key = os.environ['SHOPIFY_API_KEY']
+/a0/skills/shopify-development/scripts/shopify_init.py:        if 'SHOPIFY_API_SECRET' in os.environ:
+/a0/skills/shopify-development/scripts/shopify_init.py:            config.shopify_api_secret = os.environ['SHOPIFY_API_SECRET']
+/a0/skills/shopify-development/scripts/shopify_init.py:        if 'SHOP_DOMAIN' in os.environ:
+/a0/skills/shopify-development/scripts/shopify_init.py:            config.shop_domain = os.environ['SHOP_DOMAIN']
+/a0/skills/shopify-development/scripts/shopify_init.py:        if 'SCOPES' in os.environ:
+/a0/skills/shopify-development/scripts/shopify_init.py:            config.scopes = os.environ['SCOPES']
+/a0/skills/shopify-development/scripts/shopify_graphql.py:    shop = os.environ.get('SHOP_DOMAIN', 'your-store.myshopify.com')
+/a0/skills/shopify-development/scripts/shopify_graphql.py:    token = os.environ.get('SHOPIFY_ACCESS_TOKEN', '')
+/a0/skills/mcp-builder/scripts/evaluation.py:async def agent_loop(
+/a0/skills/mcp-builder/scripts/evaluation.py:async def evaluate_single_task(
+/a0/skills/mcp-builder/scripts/evaluation.py:async def run_evaluation(
+/a0/skills/mcp-builder/scripts/evaluation.py:async def main():
+/a0/skills/mcp-builder/scripts/evaluation.py:    env_vars = parse_env_vars(args.env) if args.env else None
+/a0/skills/mcp-builder/scripts/evaluation.py:    async with connection:
+/a0/skills/mcp-builder/scripts/connections.py:    async def __aenter__(self):
+/a0/skills/mcp-builder/scripts/connections.py:    async def __aexit__(self, exc_type, exc_val, exc_tb):
+/a0/skills/mcp-builder/scripts/connections.py:    async def list_tools(self) -> list[dict[str, Any]]:
+/a0/skills/mcp-builder/scripts/connections.py:    async def call_tool(self, tool_name: str, arguments: dict[str, Any]) -> Any:
+/a0/skills/mcp-builder/scripts/connections.py:        self.env = env
+/a0/skills/mcp-builder/scripts/connections.py:            StdioServerParameters(command=self.command, args=self.args, env=self.env)
+/a0/skills/typescript-expert/references/utility-types.ts: * Async version of function.
+/a0/skills/playwright-skill/lib/helpers.js:  const headerName = process.env.PW_HEADER_NAME;
+/a0/skills/playwright-skill/lib/helpers.js:  const headerValue = process.env.PW_HEADER_VALUE;
+/a0/skills/playwright-skill/lib/helpers.js:  const headersJson = process.env.PW_EXTRA_HEADERS;
+/a0/skills/playwright-skill/lib/helpers.js:async function launchBrowser(browserType = 'chromium', options = {}) {
+/a0/skills/playwright-skill/lib/helpers.js:    headless: process.env.HEADLESS !== 'false',
+/a0/skills/playwright-skill/lib/helpers.js:    slowMo: process.env.SLOW_MO ? parseInt(process.env.SLOW_MO) : 0,
+/a0/skills/playwright-skill/lib/helpers.js:async function createPage(context, options = {}) {
+/a0/skills/playwright-skill/lib/helpers.js:async function waitForPageReady(page, options = {}) {
+/a0/skills/playwright-skill/lib/helpers.js:async function safeClick(page, selector, options = {}) {
+/a0/skills/playwright-skill/lib/helpers.js:async function safeType(page, selector, text, options = {}) {
+/a0/skills/playwright-skill/lib/helpers.js:async function extractTexts(page, selector) {
+/a0/skills/playwright-skill/lib/helpers.js:  return await page.$$eval(selector, elements => 
+/a0/skills/playwright-skill/lib/helpers.js:async function takeScreenshot(page, name, options = {}) {
+/a0/skills/playwright-skill/lib/helpers.js:async function authenticate(page, credentials, selectors = {}) {
+/a0/skills/playwright-skill/lib/helpers.js:async function scrollPage(page, direction = 'down', distance = 500) {
+/a0/skills/playwright-skill/lib/helpers.js:async function extractTableData(page, tableSelector) {
+/a0/skills/playwright-skill/lib/helpers.js:async function handleCookieBanner(page, timeout = 3000) {
+/a0/skills/playwright-skill/lib/helpers.js:async function retryWithBackoff(fn, maxRetries = 3, initialDelay = 1000) {
+/a0/skills/playwright-skill/lib/helpers.js:async function createContext(browser, options = {}) {
+/a0/skills/playwright-skill/lib/helpers.js:    ...envHeaders,
+/a0/skills/playwright-skill/lib/helpers.js:async function detectDevServers(customPorts = []) {
+/a0/skills/playwright-skill/run.js:const { execSync } = require('child_process');
+/a0/skills/playwright-skill/run.js: * Wrap code in async IIFE if not already wrapped
+/a0/skills/playwright-skill/run.js:  // Check if code already has require() and async structure
+/a0/skills/playwright-skill/run.js:  const hasAsyncIIFE = code.includes('(async () => {') || code.includes('(async()=>{');
+/a0/skills/playwright-skill/run.js:(async () => {
+/a0/skills/playwright-skill/run.js:  // If has require but no async wrapper
+/a0/skills/playwright-skill/run.js:(async () => {
+/a0/skills/playwright-skill/run.js:async function main() {
+/a0/skills/playwright-skill/run.js:    // This allows long-running async operations to complete safely
+/a0/skills/writing-skills/render-graphs.js:const { execSync } = require('child_process');
+/a0/skills/writing-skills/render-graphs.js:  while ((match = regex.exec(markdown)) !== null) {
+/a0/skills/last30days/scripts/last30days.py:        os.environ["LAST30DAYS_DEBUG"] = "1"
+/a0/skills/last30days/scripts/lib/http.py:DEBUG = os.environ.get("LAST30DAYS_DEBUG", "").lower() in ("1", "true", "yes")
+/a0/skills/last30days/scripts/lib/render.py:        lines.append("- Edit `~/.config/last30days/.env` to add keys")
+/a0/skills/last30days/scripts/lib/ui.py:{Colors.DIM}Setup:{Colors.RESET} Edit {Colors.BOLD}~/.config/last30days/.env{Colors.RESET}
+/a0/skills/last30days/scripts/lib/ui.py:Setup: Edit ~/.config/last30days/.env
+/a0/skills/last30days/scripts/lib/ui.py:{Colors.DIM}💡 Tip: Add {Colors.YELLOW}OPENAI_API_KEY{Colors.RESET}{Colors.DIM} to ~/.config/last30days/.env for Reddit data with real engagement metrics!{Colors.RESET}
+/a0/skills/last30days/scripts/lib/ui.py:{Colors.DIM}💡 Tip: Add {Colors.CYAN}XAI_API_KEY{Colors.RESET}{Colors.DIM} to ~/.config/last30days/.env for X/Twitter data with real likes & reposts!{Colors.RESET}
+/a0/skills/last30days/scripts/lib/ui.py:    "reddit": "\n💡 Tip: Add OPENAI_API_KEY to ~/.config/last30days/.env for Reddit data with real engagement metrics!\n",
+/a0/skills/last30days/scripts/lib/ui.py:    "x": "\n💡 Tip: Add XAI_API_KEY to ~/.config/last30days/.env for X/Twitter data with real likes & reposts!\n",
+/a0/skills/last30days/scripts/lib/env.py:CONFIG_FILE = CONFIG_DIR / ".env"
+/a0/skills/last30days/scripts/lib/env.py:    """Load configuration from ~/.config/last30days/.env and environment."""
+/a0/skills/last30days/scripts/lib/env.py:        'OPENAI_API_KEY': os.environ.get('OPENAI_API_KEY') or file_env.get('OPENAI_API_KEY'),
+/a0/skills/last30days/scripts/lib/env.py:        'XAI_API_KEY': os.environ.get('XAI_API_KEY') or file_env.get('XAI_API_KEY'),
+/a0/skills/last30days/scripts/lib/env.py:        'OPENAI_MODEL_POLICY': os.environ.get('OPENAI_MODEL_POLICY') or file_env.get('OPENAI_MODEL_POLICY', 'auto'),
+/a0/skills/last30days/scripts/lib/env.py:        'OPENAI_MODEL_PIN': os.environ.get('OPENAI_MODEL_PIN') or file_env.get('OPENAI_MODEL_PIN'),
+/a0/skills/last30days/scripts/lib/env.py:        'XAI_MODEL_POLICY': os.environ.get('XAI_MODEL_POLICY') or file_env.get('XAI_MODEL_POLICY', 'latest'),
+/a0/skills/last30days/scripts/lib/env.py:        'XAI_MODEL_PIN': os.environ.get('XAI_MODEL_PIN') or file_env.get('XAI_MODEL_PIN'),
+/a0/skills/last30days/scripts/lib/env.py:            return 'web', f"No API keys configured. Using WebSearch fallback. Add keys to ~/.config/last30days/.env for Reddit/X."
+/a0/skills/bin/install.js:const { spawnSync } = require('child_process');
+/a0/skills/bin/install.js:const HOME = process.env.HOME || process.env.USERPROFILE || '';
+/a0/skills/bin/install.js:    const codexHome = process.env.CODEX_HOME;
