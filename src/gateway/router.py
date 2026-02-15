@@ -13,16 +13,17 @@ class GatewayRouter:
     def route_request(self, agent_role: str, prompt: str, **kwargs):
         model_id = self.models["fast"]
 
-        # High Intelligence Roles -> Claude 3.5 Sonnet
+        # Logic & Coding -> Claude 3.5 Sonnet
         if agent_role in ["Manager", "Coder", "Architect", "QA_Engineer", "Operator"]:
             model_id = self.models["smart"]
-        # Research Roles -> Gemini (High Context)
+        # Research -> Gemini (High Context)
         elif agent_role in ["Researcher", "Librarian"]:
             model_id = self.models["research"]
-        # Audit/Creative Roles -> GPT-4o
+        # Audit/Creative -> GPT-4o
         elif agent_role in ["Critic", "Auditor", "Sentinel"]:
             model_id = self.models["creative"]
 
+        # Override if provided
         if "model" in kwargs and kwargs["model"]:
             model_id = kwargs["model"]
 
