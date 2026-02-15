@@ -1,0 +1,4 @@
+[30;1m2026-02-14 03:16:53[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2026-02-14 03:16:54[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: 907221c7af31df5e2a3e348f69355271).
+[30;1m2026-02-14 03:21:08[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None session has been invalidated.
+[30;1m2026-02-14 03:21:13[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: cad30abe46b3947b668fb2aa774b796c).

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+/* Global Reset */
+.stApp {
+    background: radial-gradient(circle at 10% 20%, #0f172a 0%, #020617 90%);
+    font-family: 'Inter', sans-serif;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: rgba(15, 23, 42, 0.95);
+    border-right: 1px solid #1e293b;
+}
+
+/* Metric Cards (Glassmorphism) */
+div[data-testid="metric-container"] {
+    background: rgba(30, 41, 59, 0.4);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+div[data-testid="metric-container"]:hover {
+    transform: translateY(-5px);
+    border-color: #3b82f6;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+}
+
+/* Agent Cards */
+.agent-card {
+    background: rgba(30, 41, 59, 0.6);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.agent-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; width: 4px; height: 100%;
+}
+.agent-card.idle::before { background: #94a3b8; }
+.agent-card.busy::before { background: #eab308; box-shadow: 0 0 10px #eab308; }
+.agent-card.error::before { background: #ef4444; box-shadow: 0 0 10px #ef4444; }
+.agent-card.success::before { background: #22c55e; box-shadow: 0 0 10px #22c55e; }
+
+.agent-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.agent-name { font-size: 1.1rem; font-weight: 600; color: #f8fafc; }
+.agent-role { font-size: 0.8rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; }
+.agent-status-badge {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+.status-idle { background: rgba(148, 163, 184, 0.2); color: #94a3b8; }
+.status-busy { background: rgba(234, 179, 8, 0.2); color: #eab308; }
+.status-error { background: rgba(239, 68, 68, 0.2); color: #ef4444; }
+
+.agent-task {
+    background: rgba(15, 23, 42, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    color: #e2e8f0;
+    border-left: 2px solid #3b82f6;
+}
+
+/* Headers */
+h1, h2, h3 { color: #f1f5f9 !important; font-weight: 600; }
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track { background: #0f172a; }
+::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #475569; }

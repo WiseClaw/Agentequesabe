@@ -1,45 +1,40 @@
 
-import sys
-import os
 import chromadb
-from langchain_huggingface import HuggingFaceEmbeddings
+from chromadb.utils import embedding_functions
+import os
 
-WORK_DIR = "/a0/usr/workdir"
-DB_PATH = os.path.join(WORK_DIR, "src/librarian/chroma_db")
-COLLECTION_NAME = "librarian_docs"
+class Librarian:
+    def __init__(self):
+        self.client = chromadb.PersistentClient(path="src/librarian/chroma_db")
+        self.collection = None
+        self.embedding_func = None
 
-def query(text, limit=3):
-    print(f"[LIBRARIAN] Querying for: '{text}'...")
-    try:
-        client = chromadb.PersistentClient(path=DB_PATH)
-        collection = client.get_collection(name=COLLECTION_NAME)
+    def _get_collection(self):
+        if self.collection:
+            return self.collection
 
-        embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-        query_vector = embeddings.embed_query(text)
+        # Lazy load embedding function
+        if not self.embedding_func:
+            print("[LIBRARIAN] Loading embedding model (this may take a moment)...")
+            try:
+                self.embedding_func = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
+            except Exception as e:
+                print(f"[LIBRARIAN ERROR] Failed to load embeddings: {e}")
+                return None
+
+        self.collection = self.client.get_or_create_collection(
+            name="wiseclaw_memory",
+            embedding_function=self.embedding_func
+        )
+        return self.collection
+
+    def query(self, query_text, n_results=3):
+        collection = self._get_collection()
+        if not collection:
+            return "[MEMORY ERROR] Database unavailable."
 
         results = collection.query(
-            query_embeddings=[query_vector],
-            n_results=limit
+            query_texts=[query_text],
+            n_results=n_results
         )
-
-        print(f"\n[RESULTS]")
-        if results['documents']:
-            for i, doc in enumerate(results['documents'][0]):
-                meta = results['metadatas'][0][i]
-                dist = results['distances'][0][i] if results['distances'] else 0
-                source = os.path.basename(meta.get('source', 'unknown'))
-                page = meta.get('page', '?')
-                # Simple replace for preview
-                preview = doc[:150].replace('\n', ' ')
-                print(f"- [Dist: {dist:.4f}] {preview}... (Source: {source}, Page: {page})")
-        else:
-            print("No results found.")
-
-    except Exception as e:
-        print(f"[ERROR] {e}")
-
-if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        query(sys.argv[1])
-    else:
-        print("Usage: python query.py 'your question'")
+        return results['documents'][0] if results['documents'] else []

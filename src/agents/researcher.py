@@ -1,77 +1,68 @@
-import sys
-import os
+
 from .base import BaseAgent
-try:
-    from ddgs import DDGS
-except ImportError:
-    DDGS = None
+from duckduckgo_search import DDGS
 import trafilatura
+import json
 
 class ResearcherAgent(BaseAgent):
     def __init__(self):
-        super().__init__(name="The Researcher", role="Analysis")
+        super().__init__(name="The Researcher", role="Deep Investigation")
 
     def search_web(self, query, max_results=5):
-        if not DDGS:
-            return "[ERROR] ddgs (DuckDuckGo) not installed."
-
-        self.log(f"Deep Searching (DDG) for: {query}...")
-        context = "WEB SEARCH REPORT:\n"
-
+        self.log(f"Searching web for: {query}")
+        results = []
         try:
-            # 1. Get Results from DuckDuckGo
-            results = DDGS().text(query, max_results=max_results)
-            if not results:
-                return "No results found."
-
-            # 2. Process each result
-            for r in results:
-                url = r.get('href')
-                title = r.get('title')
-                snippet = r.get('body')
-
-                self.log(f"Found: {title} ({url})")
-
-                # 3. Deep Dive with Trafilatura
-                content = ""
-                try:
-                    downloaded = trafilatura.fetch_url(url)
-                    if downloaded:
-                        text = trafilatura.extract(downloaded, include_comments=False, include_tables=True)
-                        if text:
-                            content = text[:4000] # Increased limit for better context
-                        else:
-                            content = "(Content extraction failed, using snippet) " + snippet
-                    else:
-                        content = "(Download failed, using snippet) " + snippet
-                except Exception as e:
-                    content = f"(Error reading: {e}) " + snippet
-
-                context += f"\n### SOURCE: {title}\nURL: {url}\nCONTENT:\n{content}\n"
-
-            return context
-
+            with DDGS() as ddgs:
+                search_gen = ddgs.text(query, max_results=max_results)
+                for r in search_gen:
+                    results.append(r)
         except Exception as e:
-            return f"[SEARCH ERROR] {str(e)}"
+            self.log(f"Search error: {e}")
+        return results
+
+    def scrape_content(self, url):
+        try:
+            downloaded = trafilatura.fetch_url(url)
+            if downloaded:
+                return trafilatura.extract(downloaded)
+        except Exception:
+            return None
+        return None
 
     def process(self, task):
-        self.log(f"Analyzing task: {task}")
+        self.log(f"Researching: {task}")
 
-        # 1. Perform Deep Web Search
-        search_context = self.search_web(task)
+        # 1. Search Web
+        search_results = self.search_web(task, max_results=5)
 
-        # 2. Synthesize with Brain (Gemini)
+        web_context = ""
+        if search_results:
+            self.log(f"Found {len(search_results)} search results. Scraping top 3...")
+            for i, res in enumerate(search_results[:3]):
+                url = res.get('href')
+                content = self.scrape_content(url)
+                if content:
+                    # Safe string concatenation
+                    web_context += "\n--- SOURCE: " + str(url) + " ---\n" + str(content[:2000]) + "\n"
+
+        # 2. Consult Memory
+        memory_context = self.consult_memory(task, limit=5)
+
+        # 3. Synthesize
         system_prompt = (
-            "You are The Researcher, an advanced AI analyst with Deep Web Search capabilities. "
-            "Your goal is to provide a comprehensive, factual analysis based on the provided real-world data. "
-            "\n\nINSTRUCTIONS:"
-            "\n- Analyze the 'WEB SEARCH REPORT' provided below."
-            "\n- Answer the user's task strictly based on the search results."
-            "\n- Synthesize the information into a clear report with headings."
-            "\n- Cite the URLs used."
-            "\n- If the search results are insufficient, state clearly what is missing."
+            "You are The Researcher, a deep-dive investigator for WiseClaw. "
+            "Your goal is to find comprehensive, accurate information. "
+            "Analyze the provided [WEB CONTEXT] and [MEMORY CONTEXT]. "
+            "Produce a detailed report on the capabilities, APIs, and advanced features of the requested topics. "
+            "Focus on technical possibilities, bot integrations, and automation potential." 
+            "Structure the report with clear headings for Discord and Telegram."
         )
 
-        full_prompt = f"USER TASK: {task}\n\n{search_context}"
+        full_prompt = (
+            f"{system_prompt}\n\n"
+            f"[WEB CONTEXT]\n{web_context}\n[END WEB CONTEXT]\n\n"
+            f"[MEMORY CONTEXT]\n{memory_context}\n[END MEMORY CONTEXT]\n\n"
+            f"Task: {task}"
+        )
 
-        return self.ask_brain(full_prompt, system_prompt)
+        return self.ask_brain(task, full_prompt)

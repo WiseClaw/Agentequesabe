@@ -1,0 +1,8 @@
+[30;1m2026-02-14 22:59:05[0m [34;1mINFO    [0m [35mdiscord.client[0m logging in using static token
+[30;1m2026-02-14 22:59:06[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has connected to Gateway (Session ID: f343b828f9ae8bc4b72dae78bd860ee4).
+Factory Online: Agentequesabe#2511
+[MSG] #geral: Qual é a nossa estratégia atual?
+[The Manager] Orchestrating: Qual é a nossa estratégia atual?
+[LIBRARIAN] Loading embedding model (this may take a moment)...
+[The Manager] Memory Context Retrieved: 0 chars
+[30;1m2026-02-14 23:48:11[0m [34;1mINFO    [0m [35mdiscord.gateway[0m Shard ID None has successfully RESUMED session f343b828f9ae8bc4b72dae78bd860ee4.

@@ -1,7 +1,7 @@
 
 import os
 from glob import glob
-from langchain_community.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import PyPDFLoader, TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 import chromadb
@@ -32,7 +32,6 @@ def ingest():
     embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
     # 3. Load Documents
-    pdf_files = glob(os.path.join(SOURCE_DIR, "*.pdf"))
     all_splits = []
 
     text_splitter = RecursiveCharacterTextSplitter(
@@ -41,14 +40,35 @@ def ingest():
         add_start_index=True
     )
 
+    # Process PDFs
+    pdf_files = glob(os.path.join(SOURCE_DIR, "*.pdf"))
     for file_path in pdf_files:
-        print(f"[LIBRARIAN] Processing {os.path.basename(file_path)}...")
-        loader = PyPDFLoader(file_path)
-        docs = loader.load()
-        splits = text_splitter.split_documents(docs)
-        all_splits.extend(splits)
+        print(f"[LIBRARIAN] Processing PDF: {os.path.basename(file_path)}...")
+        try:
+            loader = PyPDFLoader(file_path)
+            docs = loader.load()
+            splits = text_splitter.split_documents(docs)
+            all_splits.extend(splits)
+        except Exception as e:
+            print(f"[ERROR] Failed to process {file_path}: {e}")
+
+    # Process Markdown/Text
+    md_files = glob(os.path.join(SOURCE_DIR, "*.md"))
+    for file_path in md_files:
+        print(f"[LIBRARIAN] Processing MD: {os.path.basename(file_path)}...")
+        try:
+            loader = TextLoader(file_path)
+            docs = loader.load()
+            splits = text_splitter.split_documents(docs)
+            all_splits.extend(splits)
+        except Exception as e:
+            print(f"[ERROR] Failed to process {file_path}: {e}")
 
     print(f"[LIBRARIAN] Created {len(all_splits)} chunks. Embedding and storing...")
+
+    if not all_splits:
+        print("[LIBRARIAN] No documents found to ingest.")
+        return
 
     # 4. Embed and Store in Batches
     batch_size = 100

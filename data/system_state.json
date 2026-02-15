@@ -1,0 +1,37 @@
+{
+    "sprint": "Phase 3: Dashboard & Constitution",
+    "system_health": "Nominal",
+    "last_update": "2026-02-14T23:30:00",
+    "global_token_usage": 0,
+    "max_token_budget": 2000000,
+    "agents": {
+        "Manager": {
+            "status": "Idle",
+            "current_task": "Waiting for instructions",
+            "model": "claude-3-5-sonnet",
+            "tokens_session": 0,
+            "last_active": "Never"
+        },
+        "Coder": {
+            "status": "Idle",
+            "current_task": "None",
+            "model": "claude-3-5-sonnet",
+            "tokens_session": 0,
+            "last_active": "Never"
+        },
+        "Researcher": {
+            "status": "Idle",
+            "current_task": "None",
+            "model": "gemini-1.5-pro",
+            "tokens_session": 0,
+            "last_active": "Never"
+        },
+        "Critic": {
+            "status": "Idle",
+            "current_task": "None",
+            "model": "gpt-4o",
+            "tokens_session": 0,
+            "last_active": "Never"
+        }
+    }
+}

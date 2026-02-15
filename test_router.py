@@ -1,0 +1,1 @@
+import sys; sys.path.append('/a0/usr/workdir'); from src.gateway.router import GatewayRouter; r = GatewayRouter(); print(r.route_request('Test', role='fast'))
